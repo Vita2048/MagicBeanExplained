@@ -1,0 +1,705 @@
+{
+  "samples": [
+    {
+      "t": 8,
+      "subtitle": "This is what Astra created."
+    },
+    {
+      "t": 60,
+      "subtitle": "We give those five structural groups temporary colors so their boundaries are easy to follow."
+    },
+    {
+      "t": 95,
+      "subtitle": "The angles are ninety, two hundred ten, and three hundred thirty degrees."
+    },
+    {
+      "t": 139,
+      "subtitle": "Move the test point across the circle and watch the sign change."
+    },
+    {
+      "t": 180,
+      "subtitle": "Combine the bands from all three lobes to describe the complete track."
+    },
+    {
+      "t": 225,
+      "subtitle": "A dot product tells us which side of that line a point lies on."
+    },
+    {
+      "t": 277,
+      "subtitle": "Interpolate between those values to estimate the zero crossing."
+    },
+    {
+      "t": 322,
+      "subtitle": "Rounded edges look molded, but the bevel can expand beyond the input outline."
+    },
+    {
+      "t": 366,
+      "subtitle": "Subtract the pivot from the geometry’s vertices to make their coordinates local."
+    },
+    {
+      "t": 410,
+      "subtitle": "The z coordinate selects the front or the back of the puzzle."
+    },
+    {
+      "t": 450,
+      "subtitle": "Keep the discrete puzzle state separate from the animation between positions."
+    },
+    {
+      "t": 491,
+      "subtitle": "Extrude the outlines, round the edges, and organize the parts around the correct pivots."
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "parts",
+      "identical": true
+    },
+    {
+      "id": "regions",
+      "identical": true
+    },
+    {
+      "id": "extrusion",
+      "identical": true
+    },
+    {
+      "id": "pivots",
+      "identical": true
+    },
+    {
+      "id": "beads",
+      "identical": true
+    },
+    {
+      "id": "movement",
+      "identical": true
+    }
+  ],
+  "canvasTextFindings": [],
+  "cueCount": 81,
+  "captionEnd": 505,
+  "gapCount": 0,
+  "timelines": [
+    {
+      "id": "main",
+      "duration": 505,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "time",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 0.65,
+          "properties": [
+            "opacity",
+            "y",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 0.8,
+          "properties": [
+            "opacity",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0.2,
+          "duration": 0.9,
+          "properties": [
+            "opacity",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 505,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 55,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 55,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 50,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 50,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "captions-track",
+      "duration": 505,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 505,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opening",
+      "duration": 45,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "time",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 0.65,
+          "properties": [
+            "opacity",
+            "y",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 0.8,
+          "properties": [
+            "opacity",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        },
+        {
+          "start": 0.2,
+          "duration": 0.9,
+          "properties": [
+            "opacity",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-parts",
+      "duration": 30,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-centers",
+      "duration": 40,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-fields",
+      "duration": 45,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-channels",
+      "duration": 40,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-regions",
+      "duration": 55,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 55,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 55,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-contours",
+      "duration": 45,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-extrusion",
+      "duration": 45,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 45,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-pivots",
+      "duration": 40,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-beads",
+      "duration": 40,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 40,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-movement",
+      "duration": 50,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 50,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 50,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lesson-finish",
+      "duration": 30,
+      "tweens": [
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "t",
+            "duration",
+            "delay"
+          ]
+        },
+        {
+          "start": 0,
+          "duration": 30,
+          "properties": [
+            "scaleX",
+            "duration",
+            "startAt",
+            "delay"
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

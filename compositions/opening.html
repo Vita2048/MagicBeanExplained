@@ -1,0 +1,90 @@
+<!doctype html><html><body><template><style>
+@font-face{font-family:'Teaching Sans';src:url('assets/teaching-sans.ttf')}
+@font-face{font-family:'Teaching Mono';src:url('assets/teaching-mono.ttf')}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#091321}
+#opening-root{position:relative;width:100%;height:100%;font-family:'Teaching Sans',sans-serif;color:#edf4fc;background:#091321}
+.scene-layer{position:absolute;inset:0;width:100%;height:100%}
+#heading-wrap{position:absolute;top:42px;left:72px;right:72px}
+.eyebrow{font:22px 'Teaching Mono',monospace;color:#77edcc;letter-spacing:2px;margin:0 0 14px}
+h1{font-size:54px;line-height:1.13;font-weight:400;letter-spacing:-1.3px;margin:0}
+#main-layout{position:absolute;left:72px;right:72px;top:188px;height:716px;display:grid;grid-template-columns:548px 1188px;gap:40px}
+#reference-content{position:relative;background:#101f30;border:1px solid #33495e;border-radius:20px;overflow:hidden}
+.panel-heading{margin:0;font-size:30px;font-weight:400;line-height:1.2}
+.panel-kicker{font:21px 'Teaching Mono',monospace;color:#a8b9cd;margin:7px 0 0}
+#reference-head{padding:24px 30px 0}
+#reference-image{position:absolute;left:119px;top:106px;width:310px;height:590px;object-fit:contain}
+.state-outline{position:absolute;left:110px;width:328px;height:292px;border:3px solid transparent;border-radius:20px;pointer-events:none}
+#upper-state{top:100px}#lower-state{top:405px}
+.state-label{position:absolute;left:22px;font:20px 'Teaching Mono',monospace;color:#a8b9cd;writing-mode:vertical-rl;transform:rotate(180deg)}
+#state-label-a{top:180px}#state-label-b{top:470px}
+#model-content{position:relative;border-radius:20px;overflow:hidden;background:#e1e9ed}
+#model-head{position:absolute;top:0;left:0;right:0;height:82px;z-index:2;background:#101f30;display:flex;align-items:center;justify-content:space-between;padding:0 30px}
+#model-head .panel-kicker{margin:0;color:#77edcc}
+#viewport{position:absolute;left:0;top:42px;width:1188px;height:674px}
+#model-content canvas{display:block}
+#stage{position:absolute;left:30px;right:30px;bottom:22px;display:flex;align-items:center;justify-content:space-between;gap:22px;background:#101f30;border-radius:12px;padding:16px 22px;z-index:2}
+#stage-index{font:19px 'Teaching Mono',monospace;color:#77edcc;max-width:300px;line-height:1.35}
+#stage-title{font-size:30px;color:#edf4fc;text-align:right;line-height:1.2}
+#takeaway{position:absolute;left:72px;right:72px;top:921px;height:26px;text-align:center;color:#a8b9cd;font-size:22px;line-height:26px}
+#captions{pointer-events:none;z-index:5}
+#caption-box{position:absolute;left:160px;right:160px;top:962px;height:80px;display:flex;align-items:center;justify-content:center;text-align:center}
+#subtitle{font-size:34px;line-height:1.2;margin:0;max-width:1540px;color:#edf4fc}
+#progress{position:absolute;left:72px;right:72px;bottom:16px;height:3px;background:#77edcc;transform-origin:left center}
+</style><script>window.__hf=window.__hf||{};window.__hf.buildReady=window.__hf.buildReady||{};window.__hf.buildReady.puzzle=new Promise((resolve,reject)=>{window.resolvePuzzleReady=resolve;window.rejectPuzzleReady=reject;});</script>
+<div id="opening-root" data-composition-id="opening" data-width="1920" data-height="1080" data-duration="45" data-fps="30">
+<div id="visuals" class="scene-layer">
+<div id="heading-wrap"><p class="eyebrow">MAGIC BEAN / FROM TWO IMAGES TO THREE.JS</p><h1 id="headline">I asked Astra how it created this puzzle</h1></div>
+<div id="main-layout">
+<section id="reference-content"><div id="reference-head"><h2 class="panel-heading">The starting reference</h2><p class="panel-kicker">Two images · two configurations</p></div>
+<img id="reference-image" src="assets/reference-stacked.png" alt="Original puzzle reference showing separate circles above and a connected chamber below">
+<div class="state-outline" id="upper-state"></div><div class="state-outline" id="lower-state"></div>
+<div class="state-label" id="state-label-a">SEPARATE CIRCLES</div><div class="state-label" id="state-label-b">SINGLE CHAMBER</div></section>
+<section id="model-content"><div id="model-head"><h2 class="panel-heading">Astra’s Three.js model</h2><p class="panel-kicker">THE FINISHED PUZZLE</p></div>
+<div id="viewport" aria-label="Animated procedural Magic Bean puzzle"></div>
+<div id="stage"><span id="stage-index">FROM REFERENCE TO GEOMETRY</span><span id="stage-title">Two images. One working puzzle.</span></div></section>
+</div><div id="takeaway">Two images + a short explanation of the mechanism</div></div>
+
+<div id="progress"></div></div>
+<script type="module">import {createPuzzle} from './assets/puzzle.js';
+const subtitles=[[0.918,2.984,"I started with these two images and a"],[2.984,5.697,"simple prompt explaining how the puzzle works."],[7.245,8.694,"This is what Astra created."],[10.242,14.6,"The marbles can circulate around each of the three rims independently."],[16.135,19.214,"Turn the center and the separate tracks become one"],[19.214,23.163,"connected chamber where all the marbles circulate together."],[24.698,29.489,"Each outer half-rim can flip transferring marbles between the front and back."],[31.024,34.395,"And we can turn the whole model to inspect it from any angle."],[35.943,39.313,"So I asked Astra how did you construct this geometry"],[39.588,42.656,"Let's build it step by step in Three.js."]];
+const stages=[
+ [0,'FROM REFERENCE TO GEOMETRY','Two images. One working puzzle.','Two images + a short explanation of the mechanism'],
+ [7,'01 / INDEPENDENT RIMS','Top rim','Three separate circular tracks'],
+ [10,'01 / INDEPENDENT RIMS','Lower-left rim','Three separate circular tracks'],
+ [13,'01 / INDEPENDENT RIMS','Lower-right rim','Three separate circular tracks'],
+ [16,'02 / CONNECT THE TRACKS','Turn the center · 60°','Three circles become one connected chamber'],
+ [20,'03 / SINGLE CHAMBER','All marbles move together','One continuous route across all three lobes'],
+ [26,'04 / FLIP THE HALF-RIMS','Return to separate circles','Each outer half-rim turns through 180°'],
+ [27.2,'04 / FLIP THE HALF-RIMS','Top half-rim','Front-to-back transfer'],
+ [29.7,'04 / FLIP THE HALF-RIMS','Lower-left half-rim','Front-to-back transfer'],
+ [32.2,'04 / FLIP THE HALF-RIMS','Lower-right half-rim','Front-to-back transfer'],
+ [35,'05 / INSPECT THE MODEL','Turn the whole puzzle','Front, edge, and back'],
+ [41,'NEXT / THE CONSTRUCTION','How was this geometry built?','Let’s build it step by step in Three.js.']
+];
+try {
+ const puzzle=createPuzzle(document.getElementById('viewport'));
+ const driver={time:0};
+ const stageIndex=document.getElementById('stage-index'),stageTitle=document.getElementById('stage-title'),takeaway=document.getElementById('takeaway'),upper=document.getElementById('upper-state'),lower=document.getElementById('lower-state'),header=document.getElementById('headline');
+ const setText=(el,text)=>{if(el.textContent!==text)el.textContent=text;};
+ function paint(t){
+   window.puzzleState=puzzle.renderAt(t);
+   window.paintSubtitles?.(t);
+   const stage=stages.findLast(s=>s[0]<=t)||stages[0];
+   setText(stageIndex,stage[1]);setText(stageTitle,stage[2]);setText(takeaway,stage[3]);
+   upper.style.borderColor=t>=7&&t<16||t>=26&&t<35?'#ffc878':'transparent';
+   lower.style.borderColor=t>=16&&t<26?'#ffc878':'transparent';
+   setText(header,t>=41?'How did Astra build this geometry?':'I asked Astra how it created this puzzle');
+ }
+ const tl=gsap.timeline({paused:true});
+ tl.to(driver,{time:45,duration:45,ease:'none',onUpdate:()=>paint(driver.time)},0);
+ tl.fromTo('#heading-wrap',{opacity:.2,y:10},{opacity:1,y:0,duration:.65,ease:'power2.out'},0);
+ tl.fromTo('#reference-content',{opacity:.2},{opacity:1,duration:.8,ease:'power1.out'},0);
+ tl.fromTo('#model-content',{opacity:.2},{opacity:1,duration:.9,ease:'power1.out'},.2);
+ tl.fromTo('#progress',{scaleX:0},{scaleX:1,duration:45,ease:'none'},0);
+ window.__timelines=window.__timelines||{};window.__timelines.opening=tl;
+ window.__hfForceTimelineRebind?.();
+ window.puzzleReview={seek:t=>{tl.seek(t,false);paint(t);return window.puzzleState;},stats:puzzle.getGeometryStats(),actions:puzzle.actions,subtitles};
+ window.addEventListener('hf-seek',e=>{if(e.detail.time<=45)paint(e.detail.time);});
+ paint(0);window.resolvePuzzleReady();
+}catch(error){window.rejectPuzzleReady(error);console.error(error);}
+</script></template></body></html>

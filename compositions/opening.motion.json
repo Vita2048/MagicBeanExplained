@@ -1,0 +1,14 @@
+{
+  "duration": 45,
+  "assertions": [
+    {
+      "kind": "appearsBy",
+      "selector": "#reference-image",
+      "bySec": 1
+    },
+    {
+      "kind": "staysInFrame",
+      "selector": "#viewport"
+    }
+  ]
+}

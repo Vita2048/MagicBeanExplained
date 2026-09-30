@@ -1,0 +1,373 @@
+{
+  "id": "channels",
+  "duration": 27.744,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.184208,
+      "text": "A"
+    },
+    {
+      "start": 0.197375,
+      "end": 0.447375,
+      "text": "bead"
+    },
+    {
+      "start": 0.460541,
+      "end": 0.868416,
+      "text": "channel"
+    },
+    {
+      "start": 0.881583,
+      "end": 1.039458,
+      "text": "is"
+    },
+    {
+      "start": 1.052625,
+      "end": 1.131583,
+      "text": "a"
+    },
+    {
+      "start": 1.14475,
+      "end": 1.578958,
+      "text": "band"
+    },
+    {
+      "start": 1.592125,
+      "end": 1.868458,
+      "text": "around"
+    },
+    {
+      "start": 1.881583,
+      "end": 1.921041,
+      "text": "a"
+    },
+    {
+      "start": 1.934208,
+      "end": 2.447374,
+      "text": "circle"
+    },
+    {
+      "start": 2.842125,
+      "end": 2.986875,
+      "text": "not"
+    },
+    {
+      "start": 3.0,
+      "end": 3.039458,
+      "text": "a"
+    },
+    {
+      "start": 3.052625,
+      "end": 3.4605,
+      "text": "solid"
+    },
+    {
+      "start": 3.473666,
+      "end": 3.868416,
+      "text": "disk"
+    },
+    {
+      "start": 4.315791,
+      "end": 4.499999,
+      "text": "Take"
+    },
+    {
+      "start": 4.513166,
+      "end": 4.644749,
+      "text": "the"
+    },
+    {
+      "start": 4.657875,
+      "end": 5.25,
+      "text": "absolute"
+    },
+    {
+      "start": 5.263166,
+      "end": 5.657916,
+      "text": "difference"
+    },
+    {
+      "start": 5.671041,
+      "end": 6.052624,
+      "text": "between"
+    },
+    {
+      "start": 6.065791,
+      "end": 6.657916,
+      "text": "distance"
+    },
+    {
+      "start": 6.789458,
+      "end": 6.894708,
+      "text": "and"
+    },
+    {
+      "start": 6.907875,
+      "end": 7.026291,
+      "text": "the"
+    },
+    {
+      "start": 7.039458,
+      "end": 7.605249,
+      "text": "bead-path"
+    },
+    {
+      "start": 7.618416,
+      "end": 8.236832,
+      "text": "radius"
+    },
+    {
+      "start": 8.671041,
+      "end": 9.144707,
+      "text": "Subtract"
+    },
+    {
+      "start": 9.157875,
+      "end": 9.236833,
+      "text": "the"
+    },
+    {
+      "start": 9.25,
+      "end": 9.89475,
+      "text": "half-width"
+    },
+    {
+      "start": 10.328958,
+      "end": 10.381583,
+      "text": "The"
+    },
+    {
+      "start": 10.39475,
+      "end": 10.7895,
+      "text": "negative"
+    },
+    {
+      "start": 10.802625,
+      "end": 11.2105,
+      "text": "region"
+    },
+    {
+      "start": 11.342125,
+      "end": 11.460541,
+      "text": "is"
+    },
+    {
+      "start": 11.473666,
+      "end": 11.763124,
+      "text": "now"
+    },
+    {
+      "start": 11.776333,
+      "end": 11.828958,
+      "text": "a"
+    },
+    {
+      "start": 11.842125,
+      "end": 12.355291,
+      "text": "circular"
+    },
+    {
+      "start": 12.368416,
+      "end": 12.723666,
+      "text": "band"
+    },
+    {
+      "start": 13.157875,
+      "end": 13.539458,
+      "text": "Combine"
+    },
+    {
+      "start": 13.552625,
+      "end": 13.64475,
+      "text": "the"
+    },
+    {
+      "start": 13.657875,
+      "end": 14.039458,
+      "text": "bands"
+    },
+    {
+      "start": 14.052625,
+      "end": 14.263166,
+      "text": "from"
+    },
+    {
+      "start": 14.407875,
+      "end": 14.644708,
+      "text": "all"
+    },
+    {
+      "start": 14.657875,
+      "end": 14.9605,
+      "text": "three"
+    },
+    {
+      "start": 14.973666,
+      "end": 15.486832,
+      "text": "lobes"
+    },
+    {
+      "start": 15.5,
+      "end": 15.592125,
+      "text": "to"
+    },
+    {
+      "start": 15.60525,
+      "end": 16.078916,
+      "text": "describe"
+    },
+    {
+      "start": 16.092125,
+      "end": 16.171083,
+      "text": "the"
+    },
+    {
+      "start": 16.184208,
+      "end": 16.618416,
+      "text": "complete"
+    },
+    {
+      "start": 16.631583,
+      "end": 17.144749,
+      "text": "track"
+    },
+    {
+      "start": 17.592125,
+      "end": 17.7895,
+      "text": "Keep"
+    },
+    {
+      "start": 17.802625,
+      "end": 18.157875,
+      "text": "points"
+    },
+    {
+      "start": 18.171041,
+      "end": 18.697374,
+      "text": "inside"
+    },
+    {
+      "start": 18.710541,
+      "end": 18.789499,
+      "text": "the"
+    },
+    {
+      "start": 18.802625,
+      "end": 19.289458,
+      "text": "body"
+    },
+    {
+      "start": 19.434208,
+      "end": 19.578958,
+      "text": "and"
+    },
+    {
+      "start": 19.671041,
+      "end": 20.197374,
+      "text": "outside"
+    },
+    {
+      "start": 20.210541,
+      "end": 20.276332,
+      "text": "the"
+    },
+    {
+      "start": 20.289458,
+      "end": 20.736833,
+      "text": "track"
+    },
+    {
+      "start": 20.868416,
+      "end": 20.960541,
+      "text": "to"
+    },
+    {
+      "start": 20.973666,
+      "end": 21.342082,
+      "text": "form"
+    },
+    {
+      "start": 21.35525,
+      "end": 21.434208,
+      "text": "the"
+    },
+    {
+      "start": 21.447375,
+      "end": 21.7895,
+      "text": "raised"
+    },
+    {
+      "start": 21.802625,
+      "end": 22.368416,
+      "text": "face"
+    },
+    {
+      "start": 22.802625,
+      "end": 23.013166,
+      "text": "This"
+    },
+    {
+      "start": 23.026333,
+      "end": 23.526333,
+      "text": "removes"
+    },
+    {
+      "start": 23.539458,
+      "end": 23.671041,
+      "text": "the"
+    },
+    {
+      "start": 23.684208,
+      "end": 23.881583,
+      "text": "upper"
+    },
+    {
+      "start": 23.89475,
+      "end": 24.486875,
+      "text": "material"
+    },
+    {
+      "start": 24.921041,
+      "end": 24.973666,
+      "text": "A"
+    },
+    {
+      "start": 24.986833,
+      "end": 25.394708,
+      "text": "separate"
+    },
+    {
+      "start": 25.407875,
+      "end": 25.684208,
+      "text": "lower"
+    },
+    {
+      "start": 25.697375,
+      "end": 26.0395,
+      "text": "bed"
+    },
+    {
+      "start": 26.052625,
+      "end": 26.434208,
+      "text": "becomes"
+    },
+    {
+      "start": 26.447375,
+      "end": 26.526333,
+      "text": "the"
+    },
+    {
+      "start": 26.539458,
+      "end": 26.868416,
+      "text": "channel"
+    },
+    {
+      "start": 26.881583,
+      "end": 27.342124,
+      "text": "floor"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

@@ -1,0 +1,9 @@
+{
+  "duration": 505,
+  "assertions": [
+    {
+      "kind": "staysInFrame",
+      "selector": "#subtitle"
+    }
+  ]
+}

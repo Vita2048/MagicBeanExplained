@@ -1,0 +1,413 @@
+{
+  "id": "pivots",
+  "duration": 30.12,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.289458,
+      "text": "Each"
+    },
+    {
+      "start": 0.302625,
+      "end": 0.592083,
+      "text": "part"
+    },
+    {
+      "start": 0.60525,
+      "end": 1.065791,
+      "text": "combines"
+    },
+    {
+      "start": 1.078958,
+      "end": 1.131583,
+      "text": "a"
+    },
+    {
+      "start": 1.14475,
+      "end": 1.64475,
+      "text": "core"
+    },
+    {
+      "start": 2.052625,
+      "end": 2.10525,
+      "text": "a"
+    },
+    {
+      "start": 2.118416,
+      "end": 2.394749,
+      "text": "dark"
+    },
+    {
+      "start": 2.407875,
+      "end": 2.736833,
+      "text": "channel"
+    },
+    {
+      "start": 2.75,
+      "end": 3.052625,
+      "text": "bed"
+    },
+    {
+      "start": 3.381583,
+      "end": 3.526333,
+      "text": "and"
+    },
+    {
+      "start": 3.539458,
+      "end": 3.868416,
+      "text": "raised"
+    },
+    {
+      "start": 3.881583,
+      "end": 4.171041,
+      "text": "face"
+    },
+    {
+      "start": 4.184208,
+      "end": 4.684208,
+      "text": "layers"
+    },
+    {
+      "start": 5.118416,
+      "end": 5.499999,
+      "text": "Matching"
+    },
+    {
+      "start": 5.513166,
+      "end": 5.842124,
+      "text": "layers"
+    },
+    {
+      "start": 5.85525,
+      "end": 6.026291,
+      "text": "sit"
+    },
+    {
+      "start": 6.039458,
+      "end": 6.184208,
+      "text": "on"
+    },
+    {
+      "start": 6.197375,
+      "end": 6.486833,
+      "text": "both"
+    },
+    {
+      "start": 6.5,
+      "end": 7.026333,
+      "text": "sides"
+    },
+    {
+      "start": 7.328958,
+      "end": 7.434208,
+      "text": "so"
+    },
+    {
+      "start": 7.447375,
+      "end": 7.5395,
+      "text": "the"
+    },
+    {
+      "start": 7.552625,
+      "end": 7.907875,
+      "text": "puzzle"
+    },
+    {
+      "start": 7.921041,
+      "end": 8.105249,
+      "text": "has"
+    },
+    {
+      "start": 8.118416,
+      "end": 8.171041,
+      "text": "a"
+    },
+    {
+      "start": 8.184208,
+      "end": 8.618416,
+      "text": "front"
+    },
+    {
+      "start": 8.842125,
+      "end": 8.93425,
+      "text": "and"
+    },
+    {
+      "start": 8.947375,
+      "end": 9.0,
+      "text": "a"
+    },
+    {
+      "start": 9.013166,
+      "end": 9.473707,
+      "text": "back"
+    },
+    {
+      "start": 9.921041,
+      "end": 9.986832,
+      "text": "The"
+    },
+    {
+      "start": 10.0,
+      "end": 10.315791,
+      "text": "pivot"
+    },
+    {
+      "start": 10.328958,
+      "end": 10.960541,
+      "text": "determines"
+    },
+    {
+      "start": 10.973666,
+      "end": 11.105249,
+      "text": "where"
+    },
+    {
+      "start": 11.118416,
+      "end": 11.171041,
+      "text": "a"
+    },
+    {
+      "start": 11.184208,
+      "end": 11.499999,
+      "text": "part"
+    },
+    {
+      "start": 11.513166,
+      "end": 12.157916,
+      "text": "rotates"
+    },
+    {
+      "start": 12.592125,
+      "end": 12.671083,
+      "text": "It"
+    },
+    {
+      "start": 12.684208,
+      "end": 12.789458,
+      "text": "is"
+    },
+    {
+      "start": 12.802625,
+      "end": 13.052625,
+      "text": "not"
+    },
+    {
+      "start": 13.065791,
+      "end": 13.460541,
+      "text": "always"
+    },
+    {
+      "start": 13.473666,
+      "end": 13.578916,
+      "text": "the"
+    },
+    {
+      "start": 13.592125,
+      "end": 13.855291,
+      "text": "world"
+    },
+    {
+      "start": 13.868416,
+      "end": 14.328957,
+      "text": "origin"
+    },
+    {
+      "start": 14.776333,
+      "end": 15.302666,
+      "text": "Subtract"
+    },
+    {
+      "start": 15.315791,
+      "end": 15.421041,
+      "text": "the"
+    },
+    {
+      "start": 15.434208,
+      "end": 15.828958,
+      "text": "pivot"
+    },
+    {
+      "start": 15.842125,
+      "end": 16.0395,
+      "text": "from"
+    },
+    {
+      "start": 16.052625,
+      "end": 16.131583,
+      "text": "the"
+    },
+    {
+      "start": 16.14475,
+      "end": 16.868416,
+      "text": "geometry's"
+    },
+    {
+      "start": 16.881583,
+      "end": 17.592124,
+      "text": "vertices"
+    },
+    {
+      "start": 17.789458,
+      "end": 17.894708,
+      "text": "to"
+    },
+    {
+      "start": 17.907875,
+      "end": 18.171041,
+      "text": "make"
+    },
+    {
+      "start": 18.184208,
+      "end": 18.342083,
+      "text": "their"
+    },
+    {
+      "start": 18.35525,
+      "end": 19.0,
+      "text": "coordinates"
+    },
+    {
+      "start": 19.013166,
+      "end": 19.447374,
+      "text": "local"
+    },
+    {
+      "start": 19.89475,
+      "end": 20.39475,
+      "text": "Then place"
+    },
+    {
+      "start": 20.407875,
+      "end": 20.513125,
+      "text": "the"
+    },
+    {
+      "start": 20.526333,
+      "end": 20.789499,
+      "text": "Group"
+    },
+    {
+      "start": 20.802625,
+      "end": 20.881583,
+      "text": "at"
+    },
+    {
+      "start": 20.89475,
+      "end": 20.960541,
+      "text": "the"
+    },
+    {
+      "start": 20.973666,
+      "end": 21.368416,
+      "text": "pivot"
+    },
+    {
+      "start": 21.802625,
+      "end": 21.934208,
+      "text": "Its"
+    },
+    {
+      "start": 21.947375,
+      "end": 22.328958,
+      "text": "meshes"
+    },
+    {
+      "start": 22.342125,
+      "end": 22.5395,
+      "text": "stay"
+    },
+    {
+      "start": 22.552625,
+      "end": 23.0,
+      "text": "together"
+    },
+    {
+      "start": 23.013166,
+      "end": 23.131582,
+      "text": "when"
+    },
+    {
+      "start": 23.14475,
+      "end": 23.328958,
+      "text": "that"
+    },
+    {
+      "start": 23.342125,
+      "end": 23.592125,
+      "text": "Group"
+    },
+    {
+      "start": 23.60525,
+      "end": 24.276291,
+      "text": "rotates"
+    },
+    {
+      "start": 24.723666,
+      "end": 24.776291,
+      "text": "The"
+    },
+    {
+      "start": 24.789458,
+      "end": 25.223666,
+      "text": "center"
+    },
+    {
+      "start": 25.236833,
+      "end": 25.526291,
+      "text": "turns"
+    },
+    {
+      "start": 25.539458,
+      "end": 25.881583,
+      "text": "around"
+    },
+    {
+      "start": 25.89475,
+      "end": 26.157916,
+      "text": "z"
+    },
+    {
+      "start": 26.592125,
+      "end": 26.776333,
+      "text": "Each"
+    },
+    {
+      "start": 26.789458,
+      "end": 27.052624,
+      "text": "outer"
+    },
+    {
+      "start": 27.065791,
+      "end": 27.342124,
+      "text": "half"
+    },
+    {
+      "start": 27.35525,
+      "end": 27.657875,
+      "text": "flips"
+    },
+    {
+      "start": 27.671041,
+      "end": 28.078916,
+      "text": "around"
+    },
+    {
+      "start": 28.092125,
+      "end": 28.25,
+      "text": "its"
+    },
+    {
+      "start": 28.39475,
+      "end": 29.118416,
+      "text": "outward-pointing"
+    },
+    {
+      "start": 29.131583,
+      "end": 29.736833,
+      "text": "axis"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

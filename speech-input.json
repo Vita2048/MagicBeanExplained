@@ -1,0 +1,186 @@
+[
+  {
+    "id": "opening",
+    "title": "Two images become a working puzzle",
+    "chapter": "MAGIC BEAN / FROM TWO IMAGES TO THREE.JS",
+    "min": 45,
+    "takeaway": "Two images + a short explanation of the mechanism",
+    "speech": [
+      "I started with these two images and a simple prompt explaining how the puzzle works.",
+      "This is what Astra created.",
+      "The marbles can circulate around each of the three rims independently.",
+      "Turn the center, and the separate tracks become one connected chamber, where all the marbles circulate together.",
+      "Each outer half-rim can flip, transferring marbles between the front and back.",
+      "And we can turn the whole model to inspect it from any angle.",
+      "So I asked Astra: how did you construct this geometry? Let's build it step by step in Three.js."
+    ]
+  },
+  {
+    "id": "parts",
+    "title": "Start with the parts that move together",
+    "chapter": "01 / DECOMPOSE THE OBJECT",
+    "min": 30,
+    "takeaway": "Five structural groups. Separate beads. One shared coordinate system.",
+    "speech": [
+      "Before writing geometry code, decide which parts must move together.",
+      "This puzzle has a fixed frame, a central rotor, and three outer halves that flip.",
+      "We give those five structural groups temporary colors so their boundaries are easy to follow.",
+      "The beads are separate meshes. Removing them reveals the channels underneath.",
+      "The same layered construction appears on the front and the back."
+    ]
+  },
+  {
+    "id": "centers",
+    "title": "Three centers, placed with sine and cosine",
+    "chapter": "02 / COORDINATES & SYMMETRY",
+    "min": 40,
+    "takeaway": "The bead-path radius R and the shell radius are different dimensions.",
+    "speech": [
+      "Build the flat drawing in the x-y plane. The z direction will become thickness.",
+      "Place three lobe centers around the origin, one hundred and twenty degrees apart.",
+      "Cosine gives the horizontal coordinate; sine gives the vertical coordinate.",
+      "The angles are ninety, two hundred ten, and three hundred thirty degrees.",
+      "Here the bead-path radius R is 0.88, and the center distance D is twice R.",
+      "Draw a bead-path circle at each center. The outer shell will use its own larger radius."
+    ]
+  },
+  {
+    "id": "fields",
+    "title": "A function can describe the inside of a shape",
+    "chapter": "03 / IMPLICIT 2D MASKS",
+    "min": 45,
+    "takeaway": "Negative = inside. Zero = boundary. Positive = outside.",
+    "speech": [
+      "Instead of drawing every edge by hand, ask whether a point is inside the shape.",
+      "For a circle, measure the distance from its center and subtract its radius.",
+      "A negative result means inside. Zero is the boundary. Positive means outside.",
+      "Move the test point across the circle and watch the sign change.",
+      "To combine circles, take the minimum of their values at each point.",
+      "The body combines three lobe disks with a central disk that connects them.",
+      "We use the combined function as an inside-outside mask for later construction."
+    ]
+  },
+  {
+    "id": "channels",
+    "title": "Cut a circular channel into the raised face",
+    "chapter": "04 / BANDS & SUBTRACTION",
+    "min": 40,
+    "takeaway": "Subtract the channel from the raised face; keep a lower layer as its floor.",
+    "speech": [
+      "A bead channel is a band around a circle, not a solid disk.",
+      "Take the absolute difference between distance and the bead-path radius.",
+      "Subtract the half-width. The negative region is now a circular band.",
+      "Combine the bands from all three lobes to describe the complete track.",
+      "Keep points inside the body and outside the track to form the raised face.",
+      "This removes the upper material. A separate lower bed becomes the channel floor."
+    ]
+  },
+  {
+    "id": "regions",
+    "title": "Split the body into regions that can move",
+    "chapter": "05 / MECHANICAL BOUNDARIES",
+    "min": 55,
+    "takeaway": "Intersect the body with each part's region, then leave clearance at every seam.",
+    "speech": [
+      "The outer silhouette is not enough. We must decide which material belongs to each part.",
+      "A circle around the origin defines the central rotor.",
+      "A line through each lobe center separates its outer flipping half.",
+      "A dot product tells us which side of that line a point lies on.",
+      "Intersect each region with the body. The remaining inner material belongs to the fixed frame.",
+      "Leave a small gap between neighboring parts so they can move independently.",
+      "Choose the rotor radius so its boundary falls between beads, rather than cutting through them."
+    ]
+  },
+  {
+    "id": "contours",
+    "title": "Turn the zero boundary into a closed outline",
+    "chapter": "06 / CUSTOM CONTOUR EXTRACTION",
+    "min": 45,
+    "takeaway": "traceShapes is our helper. THREE.Shape and THREE.Path are Three.js classes.",
+    "speech": [
+      "Three.js needs an outline that it can turn into a mesh. Our traceShapes helper creates it.",
+      "Sample the mask on a grid, then split every cell into two triangles.",
+      "On each edge, compare the signs at its endpoints. A sign change means the boundary crosses.",
+      "Interpolate between those values to estimate the zero crossing.",
+      "Join the crossings into closed loops. A finer grid gives a more detailed approximation.",
+      "Outer loops become Shapes. Enclosed empty loops become Paths in the shape's holes array.",
+      "Give hole boundaries the opposite winding direction to the outer contour."
+    ]
+  },
+  {
+    "id": "extrusion",
+    "title": "Add thickness — without closing the seams",
+    "chapter": "07 / EXTRUSION & BEVEL CLEARANCE",
+    "min": 45,
+    "takeaway": "Inset first, bevel second, then correct small boundary overshoots.",
+    "speech": [
+      "Pass the traced shapes to ExtrudeGeometry to turn the flat outlines into solids.",
+      "Depth creates the side walls. The front face now has real thickness.",
+      "Bevel size controls the edge's sideways extent; bevel thickness controls its depth.",
+      "Rounded edges look molded, but the bevel can expand beyond the input outline.",
+      "At a mechanical seam, that expansion can enter the neighboring part's space.",
+      "The project insets the mask before beveling, then clamps small boundary overshoots.",
+      "Recompute the normals after adjusting vertices so the shading matches the final mesh."
+    ]
+  },
+  {
+    "id": "pivots",
+    "title": "Stack the layers around the correct pivot",
+    "chapter": "08 / LAYERS & LOCAL COORDINATES",
+    "min": 40,
+    "takeaway": "Local vertex = world vertex − pivot. Put the Group back at the pivot.",
+    "speech": [
+      "Each part combines a core, a dark channel bed, and raised face layers.",
+      "Matching layers sit on both sides, so the puzzle has a front and a back.",
+      "The pivot determines where a part rotates. It is not always the world origin.",
+      "Subtract the pivot from the geometry's vertices to make their coordinates local.",
+      "Then place the Group at the pivot. Its meshes stay together when that Group rotates.",
+      "The center turns around z. Each outer half flips around its outward-pointing axis."
+    ]
+  },
+  {
+    "id": "beads",
+    "title": "One sphere geometry, many bead positions",
+    "chapter": "09 / ANGULAR SLOTS & SHARED GEOMETRY",
+    "min": 40,
+    "takeaway": "60 beads occupy 66 possible slots. The six vacancies move with the configuration.",
+    "speech": [
+      "Every bead reuses the same SphereGeometry. Materials supply the different colors.",
+      "There are ten evenly spaced positions around each lobe, so the angular step is thirty-six degrees.",
+      "Add the circular offset to the lobe center to place each bead.",
+      "The z coordinate selects the front or the back of the puzzle.",
+      "Three lobes, ten beads, and two faces give sixty beads altogether.",
+      "There are also three central pocket slots per face. Some slots are empty in each configuration."
+    ]
+  },
+  {
+    "id": "movement",
+    "title": "Movement is a test of the geometry",
+    "chapter": "10 / VALID STATES & CONTINUOUS MOTION",
+    "min": 50,
+    "takeaway": "Check the entire movement, not just its endpoints.",
+    "speech": [
+      "A model that looks correct at rest may still intersect when it moves.",
+      "Turn the rotor sixty degrees. The plastic and its carried beads share the same rigid rotation.",
+      "The channels now form a connected chamber. Beads circulate around a thirty-slot route on each face.",
+      "Keep the discrete puzzle state separate from the animation between positions.",
+      "When the move finishes, update which bead occupies each destination slot.",
+      "Now inspect a half-rim flip. Watch the seam and the beads throughout the turn.",
+      "This is a geometric, kinematic animation. A physics engine is not moving the beads."
+    ]
+  },
+  {
+    "id": "finish",
+    "title": "From flat regions to a finished puzzle",
+    "chapter": "11 / THE REUSABLE CONSTRUCTION METHOD",
+    "min": 30,
+    "takeaway": "Define → trace → extrude → group → test.",
+    "speech": [
+      "Materials, lighting, and small details give the model its finished appearance.",
+      "But the reusable construction method is underneath: define flat regions and trace their boundaries.",
+      "Extrude the outlines, round the edges, and organize the parts around the correct pivots.",
+      "The companion example lets you inspect these stages and change the construction parameters.",
+      "After every change, check that the channels align and the moving pieces still fit."
+    ]
+  }
+]

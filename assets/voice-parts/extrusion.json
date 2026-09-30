@@ -1,0 +1,443 @@
+{
+  "id": "extrusion",
+  "duration": 38.232,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.407874,
+      "text": "Pass"
+    },
+    {
+      "start": 0.421041,
+      "end": 0.526291,
+      "text": "the"
+    },
+    {
+      "start": 0.539458,
+      "end": 0.947333,
+      "text": "traced"
+    },
+    {
+      "start": 0.960541,
+      "end": 1.473707,
+      "text": "shapes"
+    },
+    {
+      "start": 1.631583,
+      "end": 1.776333,
+      "text": "to"
+    },
+    {
+      "start": 1.789458,
+      "end": 3.026291,
+      "text": "ExtrudeGeometry"
+    },
+    {
+      "start": 3.039458,
+      "end": 3.144708,
+      "text": "to"
+    },
+    {
+      "start": 3.157875,
+      "end": 3.447333,
+      "text": "turn"
+    },
+    {
+      "start": 3.460541,
+      "end": 3.539499,
+      "text": "the"
+    },
+    {
+      "start": 3.552625,
+      "end": 3.9605,
+      "text": "flat"
+    },
+    {
+      "start": 3.986833,
+      "end": 4.684208,
+      "text": "outlines"
+    },
+    {
+      "start": 4.789458,
+      "end": 4.999999,
+      "text": "into"
+    },
+    {
+      "start": 5.013166,
+      "end": 5.697374,
+      "text": "solids"
+    },
+    {
+      "start": 6.131583,
+      "end": 6.381583,
+      "text": "Depth"
+    },
+    {
+      "start": 6.39475,
+      "end": 6.815791,
+      "text": "creates"
+    },
+    {
+      "start": 6.828958,
+      "end": 6.907916,
+      "text": "the"
+    },
+    {
+      "start": 6.921041,
+      "end": 7.223666,
+      "text": "side"
+    },
+    {
+      "start": 7.236833,
+      "end": 7.697374,
+      "text": "walls"
+    },
+    {
+      "start": 8.14475,
+      "end": 8.197375,
+      "text": "The"
+    },
+    {
+      "start": 8.210541,
+      "end": 8.447374,
+      "text": "front"
+    },
+    {
+      "start": 8.460541,
+      "end": 8.815791,
+      "text": "face"
+    },
+    {
+      "start": 8.828958,
+      "end": 9.026333,
+      "text": "now"
+    },
+    {
+      "start": 9.039458,
+      "end": 9.197333,
+      "text": "has"
+    },
+    {
+      "start": 9.210541,
+      "end": 9.434207,
+      "text": "real"
+    },
+    {
+      "start": 9.447375,
+      "end": 10.065791,
+      "text": "thickness"
+    },
+    {
+      "start": 10.5,
+      "end": 10.815791,
+      "text": "Bevel"
+    },
+    {
+      "start": 10.828958,
+      "end": 11.210541,
+      "text": "size"
+    },
+    {
+      "start": 11.223666,
+      "end": 11.828916,
+      "text": "controls"
+    },
+    {
+      "start": 11.842125,
+      "end": 11.973708,
+      "text": "the"
+    },
+    {
+      "start": 12.039458,
+      "end": 12.421041,
+      "text": "edge's"
+    },
+    {
+      "start": 12.434208,
+      "end": 13.026333,
+      "text": "sideways"
+    },
+    {
+      "start": 13.039458,
+      "end": 13.592083,
+      "text": "extent"
+    },
+    {
+      "start": 13.921041,
+      "end": 14.210499,
+      "text": "bevel"
+    },
+    {
+      "start": 14.223666,
+      "end": 14.697332,
+      "text": "thickness"
+    },
+    {
+      "start": 14.710541,
+      "end": 15.355291,
+      "text": "controls"
+    },
+    {
+      "start": 15.368416,
+      "end": 15.513166,
+      "text": "its"
+    },
+    {
+      "start": 15.526333,
+      "end": 15.973708,
+      "text": "depth"
+    },
+    {
+      "start": 16.407875,
+      "end": 16.81575,
+      "text": "Rounded"
+    },
+    {
+      "start": 16.828958,
+      "end": 17.171083,
+      "text": "edges"
+    },
+    {
+      "start": 17.184208,
+      "end": 17.368416,
+      "text": "look"
+    },
+    {
+      "start": 17.381583,
+      "end": 17.855249,
+      "text": "molded"
+    },
+    {
+      "start": 18.157875,
+      "end": 18.289458,
+      "text": "but"
+    },
+    {
+      "start": 18.302625,
+      "end": 18.39475,
+      "text": "the"
+    },
+    {
+      "start": 18.407875,
+      "end": 18.776291,
+      "text": "bevel"
+    },
+    {
+      "start": 18.789458,
+      "end": 18.934208,
+      "text": "can"
+    },
+    {
+      "start": 18.947375,
+      "end": 19.60525,
+      "text": "expand"
+    },
+    {
+      "start": 19.618416,
+      "end": 20.184207,
+      "text": "beyond"
+    },
+    {
+      "start": 20.197375,
+      "end": 20.263166,
+      "text": "the"
+    },
+    {
+      "start": 20.276333,
+      "end": 20.684208,
+      "text": "input"
+    },
+    {
+      "start": 20.697375,
+      "end": 21.210541,
+      "text": "outline"
+    },
+    {
+      "start": 21.64475,
+      "end": 21.723708,
+      "text": "At"
+    },
+    {
+      "start": 21.736833,
+      "end": 21.763166,
+      "text": "a"
+    },
+    {
+      "start": 21.776333,
+      "end": 22.394749,
+      "text": "mechanical"
+    },
+    {
+      "start": 22.407875,
+      "end": 22.842083,
+      "text": "seam"
+    },
+    {
+      "start": 23.223666,
+      "end": 23.342082,
+      "text": "that"
+    },
+    {
+      "start": 23.35525,
+      "end": 24.026291,
+      "text": "expansion"
+    },
+    {
+      "start": 24.039458,
+      "end": 24.276291,
+      "text": "can"
+    },
+    {
+      "start": 24.421041,
+      "end": 24.710499,
+      "text": "enter"
+    },
+    {
+      "start": 24.723666,
+      "end": 24.815791,
+      "text": "the"
+    },
+    {
+      "start": 24.828958,
+      "end": 25.289499,
+      "text": "neighboring"
+    },
+    {
+      "start": 25.302625,
+      "end": 25.631583,
+      "text": "part's"
+    },
+    {
+      "start": 25.64475,
+      "end": 26.223708,
+      "text": "space"
+    },
+    {
+      "start": 26.671041,
+      "end": 26.736832,
+      "text": "The"
+    },
+    {
+      "start": 26.75,
+      "end": 27.276333,
+      "text": "project"
+    },
+    {
+      "start": 27.342125,
+      "end": 27.868458,
+      "text": "insets"
+    },
+    {
+      "start": 27.881583,
+      "end": 27.973708,
+      "text": "the"
+    },
+    {
+      "start": 27.986833,
+      "end": 28.499999,
+      "text": "mask"
+    },
+    {
+      "start": 28.513166,
+      "end": 28.842124,
+      "text": "before"
+    },
+    {
+      "start": 28.85525,
+      "end": 29.342083,
+      "text": "beveling"
+    },
+    {
+      "start": 29.736833,
+      "end": 29.934208,
+      "text": "then"
+    },
+    {
+      "start": 29.947375,
+      "end": 30.460541,
+      "text": "clamps"
+    },
+    {
+      "start": 30.473666,
+      "end": 30.881541,
+      "text": "small"
+    },
+    {
+      "start": 30.89475,
+      "end": 31.407916,
+      "text": "boundary"
+    },
+    {
+      "start": 31.421041,
+      "end": 32.171041,
+      "text": "overshoots"
+    },
+    {
+      "start": 32.60525,
+      "end": 33.171041,
+      "text": "Recompute"
+    },
+    {
+      "start": 33.184208,
+      "end": 33.263166,
+      "text": "the"
+    },
+    {
+      "start": 33.276333,
+      "end": 33.789499,
+      "text": "normals"
+    },
+    {
+      "start": 33.802625,
+      "end": 34.14475,
+      "text": "after"
+    },
+    {
+      "start": 34.157875,
+      "end": 34.618416,
+      "text": "adjusting"
+    },
+    {
+      "start": 34.631583,
+      "end": 35.276333,
+      "text": "vertices"
+    },
+    {
+      "start": 35.447375,
+      "end": 35.592125,
+      "text": "so"
+    },
+    {
+      "start": 35.60525,
+      "end": 35.684208,
+      "text": "the"
+    },
+    {
+      "start": 35.697375,
+      "end": 36.236833,
+      "text": "shading"
+    },
+    {
+      "start": 36.302625,
+      "end": 36.776291,
+      "text": "matches"
+    },
+    {
+      "start": 36.789458,
+      "end": 36.881583,
+      "text": "the"
+    },
+    {
+      "start": 36.89475,
+      "end": 37.276333,
+      "text": "final"
+    },
+    {
+      "start": 37.289458,
+      "end": 37.828916,
+      "text": "mesh"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

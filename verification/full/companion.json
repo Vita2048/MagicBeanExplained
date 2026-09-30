@@ -1,0 +1,62 @@
+[
+  {
+    "stage": 0,
+    "R": 0.88,
+    "D": 1.76,
+    "half": 0.275,
+    "depth": 0.205,
+    "shapes": 1,
+    "vertices": 1037,
+    "builds": 2
+  },
+  {
+    "stage": 1,
+    "R": 0.88,
+    "D": 1.76,
+    "half": 0.275,
+    "depth": 0.205,
+    "shapes": 1,
+    "vertices": 1037,
+    "builds": 3
+  },
+  {
+    "stage": 2,
+    "R": 0.88,
+    "D": 1.76,
+    "half": 0.275,
+    "depth": 0.205,
+    "shapes": 4,
+    "vertices": 2751,
+    "builds": 4
+  },
+  {
+    "stage": 3,
+    "R": 0.88,
+    "D": 1.76,
+    "half": 0.275,
+    "depth": 0.205,
+    "shapes": 4,
+    "vertices": 33000,
+    "builds": 5
+  },
+  {
+    "stage": 4,
+    "R": 0.88,
+    "D": 1.76,
+    "half": 0.275,
+    "depth": 0.205,
+    "shapes": 4,
+    "vertices": 197268,
+    "builds": 6
+  },
+  {
+    "stage": 4,
+    "R": 1.02,
+    "D": 2.04,
+    "half": 0.32,
+    "depth": 0.205,
+    "shapes": 4,
+    "vertices": 221028,
+    "builds": 7
+  }
+]

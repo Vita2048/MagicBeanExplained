@@ -1,0 +1,15 @@
+{
+  "title": "Geometry in Motion — music sample",
+  "duration": 36,
+  "bpm": 84,
+  "sampleRate": 44100,
+  "channels": 2,
+  "peakDbFS": -2.8533500713746314,
+  "rmsDbFS": -18.698739793632072,
+  "sha256": "be4115e8143ae59621c27c8cbb6e3c55af5dcc12f0321b03781b53e6b3601cd2",
+  "method": "Original coded note arrangement; local additive/FM-style synthesis and seeded noise percussion.",
+  "thirdPartyAudio": "None",
+  "externalMusicModels": "None",
+  "purpose": "36-second review sample only; not placed on video timeline.",
+  "rightsNote": "No third-party recording, soundfont, sample pack or composition was intentionally used. This provenance is not legal clearance or a guarantee against similarity or Content ID claims."
+}

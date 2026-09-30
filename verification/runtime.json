@@ -1,0 +1,126 @@
+{
+  "deterministic": true,
+  "motion": [
+    {
+      "a": 7.05,
+      "b": 7.35,
+      "movingBeads": 10
+    },
+    {
+      "a": 10.05,
+      "b": 10.35,
+      "movingBeads": 10
+    },
+    {
+      "a": 13.05,
+      "b": 13.35,
+      "movingBeads": 10
+    },
+    {
+      "a": 20.05,
+      "b": 20.35,
+      "movingBeads": 30
+    },
+    {
+      "a": 27.3,
+      "b": 28.1,
+      "movingBeads": 10
+    },
+    {
+      "a": 29.8,
+      "b": 30.6,
+      "movingBeads": 10
+    },
+    {
+      "a": 32.3,
+      "b": 33.1,
+      "movingBeads": 10
+    }
+  ],
+  "samples": [
+    {
+      "t": 2,
+      "action": "hold",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 8,
+      "action": "ring",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 11,
+      "action": "ring",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 14,
+      "action": "ring",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 18,
+      "action": "center",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 23,
+      "action": "ring",
+      "rotor": 1,
+      "beads": 60
+    },
+    {
+      "t": 28.2,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 30.7,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 33.2,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 36.5,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 38,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 39.5,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    },
+    {
+      "t": 43,
+      "action": "flip",
+      "rotor": 0,
+      "beads": 60
+    }
+  ],
+  "stats": {
+    "meshes": 224,
+    "vertices": 472415,
+    "beads": 60,
+    "parts": 5
+  }
+}

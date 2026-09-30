@@ -1,0 +1,453 @@
+{
+  "id": "fields",
+  "duration": 33.672,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.421041,
+      "text": "Instead"
+    },
+    {
+      "start": 0.434208,
+      "end": 0.526333,
+      "text": "of"
+    },
+    {
+      "start": 0.539458,
+      "end": 1.013124,
+      "text": "drawing"
+    },
+    {
+      "start": 1.157875,
+      "end": 1.526291,
+      "text": "every"
+    },
+    {
+      "start": 1.539458,
+      "end": 1.763124,
+      "text": "edge"
+    },
+    {
+      "start": 1.776333,
+      "end": 1.947374,
+      "text": "by"
+    },
+    {
+      "start": 1.960541,
+      "end": 2.407916,
+      "text": "hand"
+    },
+    {
+      "start": 2.85525,
+      "end": 3.131583,
+      "text": "ask"
+    },
+    {
+      "start": 3.14475,
+      "end": 3.421083,
+      "text": "whether"
+    },
+    {
+      "start": 3.434208,
+      "end": 3.486833,
+      "text": "a"
+    },
+    {
+      "start": 3.5,
+      "end": 3.921041,
+      "text": "point"
+    },
+    {
+      "start": 4.039458,
+      "end": 4.157874,
+      "text": "is"
+    },
+    {
+      "start": 4.171041,
+      "end": 4.644707,
+      "text": "inside"
+    },
+    {
+      "start": 4.657875,
+      "end": 4.7105,
+      "text": "the"
+    },
+    {
+      "start": 4.723666,
+      "end": 5.157874,
+      "text": "shape"
+    },
+    {
+      "start": 5.64475,
+      "end": 5.736875,
+      "text": "For"
+    },
+    {
+      "start": 5.75,
+      "end": 5.802625,
+      "text": "a"
+    },
+    {
+      "start": 5.815791,
+      "end": 6.328957,
+      "text": "circle"
+    },
+    {
+      "start": 6.710541,
+      "end": 6.960541,
+      "text": "measure"
+    },
+    {
+      "start": 6.973666,
+      "end": 7.092082,
+      "text": "the"
+    },
+    {
+      "start": 7.10525,
+      "end": 7.552625,
+      "text": "distance"
+    },
+    {
+      "start": 7.565791,
+      "end": 7.736832,
+      "text": "from"
+    },
+    {
+      "start": 7.75,
+      "end": 7.881583,
+      "text": "its"
+    },
+    {
+      "start": 7.89475,
+      "end": 8.39475,
+      "text": "center"
+    },
+    {
+      "start": 8.631583,
+      "end": 8.697374,
+      "text": "and"
+    },
+    {
+      "start": 8.710541,
+      "end": 9.289499,
+      "text": "subtract"
+    },
+    {
+      "start": 9.302625,
+      "end": 9.434208,
+      "text": "its"
+    },
+    {
+      "start": 9.447375,
+      "end": 10.078958,
+      "text": "radius"
+    },
+    {
+      "start": 10.5,
+      "end": 10.526333,
+      "text": "A"
+    },
+    {
+      "start": 10.539458,
+      "end": 10.921041,
+      "text": "negative"
+    },
+    {
+      "start": 10.934208,
+      "end": 11.355249,
+      "text": "result"
+    },
+    {
+      "start": 11.368416,
+      "end": 11.631582,
+      "text": "means"
+    },
+    {
+      "start": 11.64475,
+      "end": 12.197375,
+      "text": "inside"
+    },
+    {
+      "start": 12.578291,
+      "end": 13.144082,
+      "text": "Zero"
+    },
+    {
+      "start": 13.236166,
+      "end": 13.341416,
+      "text": "is"
+    },
+    {
+      "start": 13.354625,
+      "end": 13.44675,
+      "text": "the"
+    },
+    {
+      "start": 13.459875,
+      "end": 14.038833,
+      "text": "boundary"
+    },
+    {
+      "start": 14.473666,
+      "end": 14.868416,
+      "text": "Positive"
+    },
+    {
+      "start": 14.881583,
+      "end": 15.157916,
+      "text": "means"
+    },
+    {
+      "start": 15.171041,
+      "end": 15.736832,
+      "text": "outside"
+    },
+    {
+      "start": 16.171041,
+      "end": 16.407874,
+      "text": "Move"
+    },
+    {
+      "start": 16.421041,
+      "end": 16.526291,
+      "text": "the"
+    },
+    {
+      "start": 16.539458,
+      "end": 16.855249,
+      "text": "test"
+    },
+    {
+      "start": 16.868416,
+      "end": 17.131582,
+      "text": "point"
+    },
+    {
+      "start": 17.14475,
+      "end": 17.5,
+      "text": "across"
+    },
+    {
+      "start": 17.513166,
+      "end": 17.605291,
+      "text": "the"
+    },
+    {
+      "start": 17.618416,
+      "end": 18.118416,
+      "text": "circle"
+    },
+    {
+      "start": 18.35525,
+      "end": 18.447375,
+      "text": "and"
+    },
+    {
+      "start": 18.460541,
+      "end": 18.723707,
+      "text": "watch"
+    },
+    {
+      "start": 18.736833,
+      "end": 18.842083,
+      "text": "the"
+    },
+    {
+      "start": 18.85525,
+      "end": 19.184208,
+      "text": "sign"
+    },
+    {
+      "start": 19.197375,
+      "end": 19.684208,
+      "text": "change"
+    },
+    {
+      "start": 20.131583,
+      "end": 20.184208,
+      "text": "To"
+    },
+    {
+      "start": 20.197375,
+      "end": 20.578958,
+      "text": "combine"
+    },
+    {
+      "start": 20.592125,
+      "end": 21.18425,
+      "text": "circles"
+    },
+    {
+      "start": 21.434208,
+      "end": 21.671041,
+      "text": "take"
+    },
+    {
+      "start": 21.684208,
+      "end": 21.763166,
+      "text": "the"
+    },
+    {
+      "start": 21.776333,
+      "end": 22.223708,
+      "text": "minimum"
+    },
+    {
+      "start": 22.236833,
+      "end": 22.342083,
+      "text": "of"
+    },
+    {
+      "start": 22.35525,
+      "end": 22.5,
+      "text": "their"
+    },
+    {
+      "start": 22.513166,
+      "end": 23.092124,
+      "text": "values"
+    },
+    {
+      "start": 23.10525,
+      "end": 23.236833,
+      "text": "at"
+    },
+    {
+      "start": 23.25,
+      "end": 23.460541,
+      "text": "each"
+    },
+    {
+      "start": 23.473666,
+      "end": 23.881541,
+      "text": "point"
+    },
+    {
+      "start": 24.328958,
+      "end": 24.394749,
+      "text": "The"
+    },
+    {
+      "start": 24.407875,
+      "end": 24.697333,
+      "text": "body"
+    },
+    {
+      "start": 24.710541,
+      "end": 25.302666,
+      "text": "combines"
+    },
+    {
+      "start": 25.315791,
+      "end": 25.684207,
+      "text": "three"
+    },
+    {
+      "start": 25.697375,
+      "end": 26.026333,
+      "text": "lobe"
+    },
+    {
+      "start": 26.039458,
+      "end": 26.473666,
+      "text": "disks"
+    },
+    {
+      "start": 26.486833,
+      "end": 26.631583,
+      "text": "with"
+    },
+    {
+      "start": 26.64475,
+      "end": 26.684208,
+      "text": "a"
+    },
+    {
+      "start": 26.697375,
+      "end": 27.157916,
+      "text": "central"
+    },
+    {
+      "start": 27.171041,
+      "end": 27.565791,
+      "text": "disk"
+    },
+    {
+      "start": 27.671041,
+      "end": 27.815791,
+      "text": "that"
+    },
+    {
+      "start": 27.828958,
+      "end": 28.223708,
+      "text": "connects"
+    },
+    {
+      "start": 28.236833,
+      "end": 28.447374,
+      "text": "them"
+    },
+    {
+      "start": 28.881583,
+      "end": 29.013166,
+      "text": "We"
+    },
+    {
+      "start": 29.026333,
+      "end": 29.249999,
+      "text": "use"
+    },
+    {
+      "start": 29.263166,
+      "end": 29.368416,
+      "text": "the"
+    },
+    {
+      "start": 29.381583,
+      "end": 29.868416,
+      "text": "combined"
+    },
+    {
+      "start": 29.881583,
+      "end": 30.434208,
+      "text": "function"
+    },
+    {
+      "start": 30.513166,
+      "end": 30.657916,
+      "text": "as"
+    },
+    {
+      "start": 30.671041,
+      "end": 30.763166,
+      "text": "an"
+    },
+    {
+      "start": 30.776333,
+      "end": 31.828958,
+      "text": "inside-outside"
+    },
+    {
+      "start": 31.842125,
+      "end": 32.223708,
+      "text": "mask"
+    },
+    {
+      "start": 32.236833,
+      "end": 32.355249,
+      "text": "for"
+    },
+    {
+      "start": 32.368416,
+      "end": 32.605249,
+      "text": "later"
+    },
+    {
+      "start": 32.618416,
+      "end": 33.263166,
+      "text": "construction"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

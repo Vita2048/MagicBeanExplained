@@ -1,0 +1,7 @@
+.hyperframes/
+.thumbnails/
+.waveform-cache/
+snapshots/
+renders/
+node_modules/
+test-probe.*

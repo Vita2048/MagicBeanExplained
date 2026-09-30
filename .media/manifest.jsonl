@@ -1,0 +1,2 @@
+{"id":"image_001","type":"image","path":".media/images/image_001.png","source":"ingested","description":"reference-stacked.png","provenance":{"provider":"local","from":"assets/reference-stacked.png"}}
+{"id":"bgm_001","type":"bgm","path":".media/audio/bgm/bgm_001.wav","source":"ingested","description":"geometry-in-motion-sample.wav","provenance":{"provider":"local","from":"assets/audio/geometry-in-motion-sample.wav"}}

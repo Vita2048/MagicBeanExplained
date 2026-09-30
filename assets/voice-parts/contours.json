@@ -1,0 +1,483 @@
+{
+  "id": "contours",
+  "duration": 38.328,
+  "words": [
+    {
+      "start": 0.157875,
+      "end": 0.289458,
+      "text": "Three"
+    },
+    {
+      "start": 0.302625,
+      "end": 0.513166,
+      "text": "."
+    },
+    {
+      "start": 0.526333,
+      "end": 1.131583,
+      "text": "js"
+    },
+    {
+      "start": 1.236833,
+      "end": 1.513166,
+      "text": "needs"
+    },
+    {
+      "start": 1.526333,
+      "end": 1.618458,
+      "text": "an"
+    },
+    {
+      "start": 1.631583,
+      "end": 2.105249,
+      "text": "outline"
+    },
+    {
+      "start": 2.118416,
+      "end": 2.249999,
+      "text": "that"
+    },
+    {
+      "start": 2.263166,
+      "end": 2.328957,
+      "text": "it"
+    },
+    {
+      "start": 2.342125,
+      "end": 2.460541,
+      "text": "can"
+    },
+    {
+      "start": 2.473666,
+      "end": 2.749999,
+      "text": "turn"
+    },
+    {
+      "start": 2.763166,
+      "end": 3.013166,
+      "text": "into"
+    },
+    {
+      "start": 3.026333,
+      "end": 3.078958,
+      "text": "a"
+    },
+    {
+      "start": 3.092125,
+      "end": 3.710541,
+      "text": "mesh"
+    },
+    {
+      "start": 4.14475,
+      "end": 4.276333,
+      "text": "Our"
+    },
+    {
+      "start": 4.289458,
+      "end": 5.026291,
+      "text": "traceShapes"
+    },
+    {
+      "start": 5.039458,
+      "end": 5.302624,
+      "text": "helper"
+    },
+    {
+      "start": 5.315791,
+      "end": 5.763166,
+      "text": "creates"
+    },
+    {
+      "start": 5.776333,
+      "end": 5.947374,
+      "text": "it"
+    },
+    {
+      "start": 6.39475,
+      "end": 6.763166,
+      "text": "Sample"
+    },
+    {
+      "start": 6.776333,
+      "end": 6.868458,
+      "text": "the"
+    },
+    {
+      "start": 6.881583,
+      "end": 7.315791,
+      "text": "mask"
+    },
+    {
+      "start": 7.328958,
+      "end": 7.434208,
+      "text": "on"
+    },
+    {
+      "start": 7.447375,
+      "end": 7.486833,
+      "text": "a"
+    },
+    {
+      "start": 7.5,
+      "end": 7.868416,
+      "text": "grid"
+    },
+    {
+      "start": 8.276333,
+      "end": 8.421083,
+      "text": "then"
+    },
+    {
+      "start": 8.434208,
+      "end": 8.828958,
+      "text": "split"
+    },
+    {
+      "start": 9.013166,
+      "end": 9.276332,
+      "text": "every"
+    },
+    {
+      "start": 9.289458,
+      "end": 9.763124,
+      "text": "cell"
+    },
+    {
+      "start": 9.828958,
+      "end": 10.052624,
+      "text": "into"
+    },
+    {
+      "start": 10.065791,
+      "end": 10.368416,
+      "text": "two"
+    },
+    {
+      "start": 10.381583,
+      "end": 11.263166,
+      "text": "triangles"
+    },
+    {
+      "start": 11.697375,
+      "end": 11.85525,
+      "text": "On"
+    },
+    {
+      "start": 11.947375,
+      "end": 12.171041,
+      "text": "each"
+    },
+    {
+      "start": 12.184208,
+      "end": 12.605249,
+      "text": "edge"
+    },
+    {
+      "start": 12.842125,
+      "end": 13.197375,
+      "text": "compare"
+    },
+    {
+      "start": 13.210541,
+      "end": 13.302666,
+      "text": "the"
+    },
+    {
+      "start": 13.315791,
+      "end": 13.736832,
+      "text": "signs"
+    },
+    {
+      "start": 13.75,
+      "end": 13.828958,
+      "text": "at"
+    },
+    {
+      "start": 13.842125,
+      "end": 13.986875,
+      "text": "its"
+    },
+    {
+      "start": 14.0,
+      "end": 14.671041,
+      "text": "endpoints"
+    },
+    {
+      "start": 15.10525,
+      "end": 15.157875,
+      "text": "A"
+    },
+    {
+      "start": 15.171041,
+      "end": 15.486832,
+      "text": "sign"
+    },
+    {
+      "start": 15.5,
+      "end": 15.934208,
+      "text": "change"
+    },
+    {
+      "start": 15.947375,
+      "end": 16.197375,
+      "text": "means"
+    },
+    {
+      "start": 16.210541,
+      "end": 16.315791,
+      "text": "the"
+    },
+    {
+      "start": 16.328958,
+      "end": 16.763166,
+      "text": "boundary"
+    },
+    {
+      "start": 16.776333,
+      "end": 17.434208,
+      "text": "crosses"
+    },
+    {
+      "start": 17.868416,
+      "end": 18.526291,
+      "text": "Interpolate"
+    },
+    {
+      "start": 18.539458,
+      "end": 18.973666,
+      "text": "between"
+    },
+    {
+      "start": 18.986833,
+      "end": 19.223666,
+      "text": "those"
+    },
+    {
+      "start": 19.236833,
+      "end": 19.828958,
+      "text": "values"
+    },
+    {
+      "start": 19.934208,
+      "end": 20.065791,
+      "text": "to"
+    },
+    {
+      "start": 20.078958,
+      "end": 20.657916,
+      "text": "estimate"
+    },
+    {
+      "start": 20.671041,
+      "end": 20.789457,
+      "text": "the"
+    },
+    {
+      "start": 20.802625,
+      "end": 21.171041,
+      "text": "zero"
+    },
+    {
+      "start": 21.184208,
+      "end": 21.723666,
+      "text": "crossing"
+    },
+    {
+      "start": 22.157875,
+      "end": 22.35525,
+      "text": "Join"
+    },
+    {
+      "start": 22.368416,
+      "end": 22.447374,
+      "text": "the"
+    },
+    {
+      "start": 22.460541,
+      "end": 23.092124,
+      "text": "crossings"
+    },
+    {
+      "start": 23.10525,
+      "end": 23.302625,
+      "text": "into"
+    },
+    {
+      "start": 23.315791,
+      "end": 23.710541,
+      "text": "closed"
+    },
+    {
+      "start": 23.723666,
+      "end": 24.236832,
+      "text": "loops"
+    },
+    {
+      "start": 24.671041,
+      "end": 24.736832,
+      "text": "A"
+    },
+    {
+      "start": 24.75,
+      "end": 25.10525,
+      "text": "finer"
+    },
+    {
+      "start": 25.118416,
+      "end": 25.473666,
+      "text": "grid"
+    },
+    {
+      "start": 25.592125,
+      "end": 25.802666,
+      "text": "gives"
+    },
+    {
+      "start": 25.815791,
+      "end": 25.855249,
+      "text": "a"
+    },
+    {
+      "start": 25.868416,
+      "end": 26.157874,
+      "text": "more"
+    },
+    {
+      "start": 26.171041,
+      "end": 26.657874,
+      "text": "detailed"
+    },
+    {
+      "start": 26.671041,
+      "end": 27.486832,
+      "text": "approximation"
+    },
+    {
+      "start": 27.921041,
+      "end": 28.210499,
+      "text": "Outer"
+    },
+    {
+      "start": 28.223666,
+      "end": 28.486832,
+      "text": "loops"
+    },
+    {
+      "start": 28.5,
+      "end": 28.842125,
+      "text": "become"
+    },
+    {
+      "start": 28.85525,
+      "end": 29.4605,
+      "text": "Shapes"
+    },
+    {
+      "start": 29.89475,
+      "end": 30.421083,
+      "text": "Enclosed"
+    },
+    {
+      "start": 30.578958,
+      "end": 30.855291,
+      "text": "empty"
+    },
+    {
+      "start": 30.868416,
+      "end": 31.197374,
+      "text": "loops"
+    },
+    {
+      "start": 31.210541,
+      "end": 31.578957,
+      "text": "become"
+    },
+    {
+      "start": 31.592125,
+      "end": 32.14475,
+      "text": "Paths"
+    },
+    {
+      "start": 32.157875,
+      "end": 32.263125,
+      "text": "in"
+    },
+    {
+      "start": 32.276333,
+      "end": 32.342124,
+      "text": "the"
+    },
+    {
+      "start": 32.35525,
+      "end": 32.736833,
+      "text": "shape's"
+    },
+    {
+      "start": 32.75,
+      "end": 33.013166,
+      "text": "holes"
+    },
+    {
+      "start": 33.026333,
+      "end": 33.368458,
+      "text": "array"
+    },
+    {
+      "start": 33.802625,
+      "end": 33.986833,
+      "text": "Give"
+    },
+    {
+      "start": 34.0,
+      "end": 34.263166,
+      "text": "hole"
+    },
+    {
+      "start": 34.276333,
+      "end": 34.947374,
+      "text": "boundaries"
+    },
+    {
+      "start": 34.960541,
+      "end": 35.118416,
+      "text": "the"
+    },
+    {
+      "start": 35.25,
+      "end": 35.802625,
+      "text": "opposite"
+    },
+    {
+      "start": 35.815791,
+      "end": 36.236832,
+      "text": "winding"
+    },
+    {
+      "start": 36.25,
+      "end": 36.789458,
+      "text": "direction"
+    },
+    {
+      "start": 36.802625,
+      "end": 36.921041,
+      "text": "to"
+    },
+    {
+      "start": 36.934208,
+      "end": 37.078958,
+      "text": "the"
+    },
+    {
+      "start": 37.092125,
+      "end": 37.342125,
+      "text": "outer"
+    },
+    {
+      "start": 37.35525,
+      "end": 37.934208,
+      "text": "contour"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

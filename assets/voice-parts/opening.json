@@ -1,0 +1,473 @@
+{
+  "id": "opening",
+  "duration": 34.536,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.184207,
+      "text": "I"
+    },
+    {
+      "start": 0.197375,
+      "end": 0.565791,
+      "text": "started"
+    },
+    {
+      "start": 0.578958,
+      "end": 0.723708,
+      "text": "with"
+    },
+    {
+      "start": 0.736833,
+      "end": 0.960499,
+      "text": "these"
+    },
+    {
+      "start": 0.973666,
+      "end": 1.184207,
+      "text": "two"
+    },
+    {
+      "start": 1.197375,
+      "end": 1.815791,
+      "text": "images"
+    },
+    {
+      "start": 1.934208,
+      "end": 2.105249,
+      "text": "and"
+    },
+    {
+      "start": 2.118416,
+      "end": 2.171041,
+      "text": "a"
+    },
+    {
+      "start": 2.184208,
+      "end": 2.605249,
+      "text": "simple"
+    },
+    {
+      "start": 2.618416,
+      "end": 3.065791,
+      "text": "prompt"
+    },
+    {
+      "start": 3.078958,
+      "end": 3.671083,
+      "text": "explaining"
+    },
+    {
+      "start": 3.684208,
+      "end": 3.776333,
+      "text": "how"
+    },
+    {
+      "start": 3.789458,
+      "end": 3.881583,
+      "text": "the"
+    },
+    {
+      "start": 3.89475,
+      "end": 4.223708,
+      "text": "puzzle"
+    },
+    {
+      "start": 4.236833,
+      "end": 4.736833,
+      "text": "works"
+    },
+    {
+      "start": 5.184208,
+      "end": 5.342083,
+      "text": "This"
+    },
+    {
+      "start": 5.35525,
+      "end": 5.4605,
+      "text": "is"
+    },
+    {
+      "start": 5.473666,
+      "end": 5.618416,
+      "text": "what"
+    },
+    {
+      "start": 5.631583,
+      "end": 5.960541,
+      "text": "Astra"
+    },
+    {
+      "start": 5.973666,
+      "end": 6.473666,
+      "text": "created"
+    },
+    {
+      "start": 6.921041,
+      "end": 6.973666,
+      "text": "The"
+    },
+    {
+      "start": 6.986833,
+      "end": 7.434208,
+      "text": "marbles"
+    },
+    {
+      "start": 7.447375,
+      "end": 7.618416,
+      "text": "can"
+    },
+    {
+      "start": 7.631583,
+      "end": 8.249999,
+      "text": "circulate"
+    },
+    {
+      "start": 8.263166,
+      "end": 8.723707,
+      "text": "around"
+    },
+    {
+      "start": 8.868416,
+      "end": 9.078957,
+      "text": "each"
+    },
+    {
+      "start": 9.092125,
+      "end": 9.171083,
+      "text": "of"
+    },
+    {
+      "start": 9.184208,
+      "end": 9.276333,
+      "text": "the"
+    },
+    {
+      "start": 9.289458,
+      "end": 9.657874,
+      "text": "three"
+    },
+    {
+      "start": 9.671041,
+      "end": 10.210499,
+      "text": "rims"
+    },
+    {
+      "start": 10.342125,
+      "end": 11.118458,
+      "text": "independently"
+    },
+    {
+      "start": 11.552625,
+      "end": 11.776291,
+      "text": "Turn"
+    },
+    {
+      "start": 11.789458,
+      "end": 11.881583,
+      "text": "the"
+    },
+    {
+      "start": 11.89475,
+      "end": 12.421083,
+      "text": "center"
+    },
+    {
+      "start": 12.736833,
+      "end": 12.802624,
+      "text": "and"
+    },
+    {
+      "start": 12.815791,
+      "end": 12.894749,
+      "text": "the"
+    },
+    {
+      "start": 12.907875,
+      "end": 13.35525,
+      "text": "separate"
+    },
+    {
+      "start": 13.368416,
+      "end": 13.828957,
+      "text": "tracks"
+    },
+    {
+      "start": 13.842125,
+      "end": 14.2895,
+      "text": "become"
+    },
+    {
+      "start": 14.302625,
+      "end": 14.618416,
+      "text": "one"
+    },
+    {
+      "start": 14.631583,
+      "end": 15.144749,
+      "text": "connected"
+    },
+    {
+      "start": 15.157875,
+      "end": 15.60525,
+      "text": "chamber"
+    },
+    {
+      "start": 16.013166,
+      "end": 16.210541,
+      "text": "where"
+    },
+    {
+      "start": 16.276333,
+      "end": 16.499999,
+      "text": "all"
+    },
+    {
+      "start": 16.513166,
+      "end": 16.605291,
+      "text": "the"
+    },
+    {
+      "start": 16.618416,
+      "end": 17.171041,
+      "text": "marbles"
+    },
+    {
+      "start": 17.184208,
+      "end": 17.868416,
+      "text": "circulate"
+    },
+    {
+      "start": 17.881583,
+      "end": 18.421041,
+      "text": "together"
+    },
+    {
+      "start": 18.85525,
+      "end": 19.065791,
+      "text": "Each"
+    },
+    {
+      "start": 19.078958,
+      "end": 19.342124,
+      "text": "outer"
+    },
+    {
+      "start": 19.35525,
+      "end": 19.881583,
+      "text": "half-rim"
+    },
+    {
+      "start": 19.89475,
+      "end": 20.0395,
+      "text": "can"
+    },
+    {
+      "start": 20.052625,
+      "end": 20.486833,
+      "text": "flip"
+    },
+    {
+      "start": 20.802625,
+      "end": 21.486833,
+      "text": "transferring"
+    },
+    {
+      "start": 21.5,
+      "end": 21.934208,
+      "text": "marbles"
+    },
+    {
+      "start": 21.947375,
+      "end": 22.2895,
+      "text": "between"
+    },
+    {
+      "start": 22.302625,
+      "end": 22.381583,
+      "text": "the"
+    },
+    {
+      "start": 22.39475,
+      "end": 22.763166,
+      "text": "front"
+    },
+    {
+      "start": 22.89475,
+      "end": 22.986875,
+      "text": "and"
+    },
+    {
+      "start": 23.0,
+      "end": 23.486833,
+      "text": "back"
+    },
+    {
+      "start": 23.921041,
+      "end": 23.999999,
+      "text": "And"
+    },
+    {
+      "start": 24.013166,
+      "end": 24.118416,
+      "text": "we"
+    },
+    {
+      "start": 24.131583,
+      "end": 24.249999,
+      "text": "can"
+    },
+    {
+      "start": 24.263166,
+      "end": 24.513166,
+      "text": "turn"
+    },
+    {
+      "start": 24.526333,
+      "end": 24.592124,
+      "text": "the"
+    },
+    {
+      "start": 24.60525,
+      "end": 24.868416,
+      "text": "whole"
+    },
+    {
+      "start": 24.881583,
+      "end": 25.263166,
+      "text": "model"
+    },
+    {
+      "start": 25.276333,
+      "end": 25.394749,
+      "text": "to"
+    },
+    {
+      "start": 25.407875,
+      "end": 25.934208,
+      "text": "inspect"
+    },
+    {
+      "start": 25.947375,
+      "end": 26.052625,
+      "text": "it"
+    },
+    {
+      "start": 26.197375,
+      "end": 26.39475,
+      "text": "from"
+    },
+    {
+      "start": 26.513166,
+      "end": 26.736832,
+      "text": "any"
+    },
+    {
+      "start": 26.75,
+      "end": 27.131583,
+      "text": "angle"
+    },
+    {
+      "start": 27.578958,
+      "end": 27.776333,
+      "text": "So"
+    },
+    {
+      "start": 27.789458,
+      "end": 27.881583,
+      "text": "I"
+    },
+    {
+      "start": 27.89475,
+      "end": 28.197375,
+      "text": "asked"
+    },
+    {
+      "start": 28.210541,
+      "end": 28.605291,
+      "text": "Astra"
+    },
+    {
+      "start": 29.092125,
+      "end": 29.157916,
+      "text": "how"
+    },
+    {
+      "start": 29.171041,
+      "end": 29.302624,
+      "text": "did"
+    },
+    {
+      "start": 29.315791,
+      "end": 29.407916,
+      "text": "you"
+    },
+    {
+      "start": 29.421041,
+      "end": 29.934207,
+      "text": "construct"
+    },
+    {
+      "start": 29.947375,
+      "end": 30.10525,
+      "text": "this"
+    },
+    {
+      "start": 30.118416,
+      "end": 30.789457,
+      "text": "geometry"
+    },
+    {
+      "start": 31.223666,
+      "end": 31.394707,
+      "text": "Let's"
+    },
+    {
+      "start": 31.407875,
+      "end": 31.631541,
+      "text": "build"
+    },
+    {
+      "start": 31.64475,
+      "end": 31.723708,
+      "text": "it"
+    },
+    {
+      "start": 31.736833,
+      "end": 32.052624,
+      "text": "step"
+    },
+    {
+      "start": 32.065791,
+      "end": 32.197374,
+      "text": "by"
+    },
+    {
+      "start": 32.210541,
+      "end": 32.565791,
+      "text": "step"
+    },
+    {
+      "start": 32.671041,
+      "end": 32.815791,
+      "text": "in"
+    },
+    {
+      "start": 32.828958,
+      "end": 33.184208,
+      "text": "Three"
+    },
+    {
+      "start": 33.197375,
+      "end": 33.434208,
+      "text": "."
+    },
+    {
+      "start": 33.447375,
+      "end": 34.131583,
+      "text": "js"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

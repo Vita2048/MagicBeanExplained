@@ -1,0 +1,408 @@
+{
+  "id": "centers",
+  "duration": 32.496,
+  "words": [
+    {
+      "start": 0.10525,
+      "end": 0.302625,
+      "text": "Build"
+    },
+    {
+      "start": 0.315791,
+      "end": 0.394749,
+      "text": "the"
+    },
+    {
+      "start": 0.407875,
+      "end": 0.842083,
+      "text": "flat"
+    },
+    {
+      "start": 0.921041,
+      "end": 1.552624,
+      "text": "drawing"
+    },
+    {
+      "start": 1.671041,
+      "end": 1.749999,
+      "text": "in"
+    },
+    {
+      "start": 1.763166,
+      "end": 1.855291,
+      "text": "the"
+    },
+    {
+      "start": 1.868416,
+      "end": 2.315791,
+      "text": "x-y"
+    },
+    {
+      "start": 2.328958,
+      "end": 2.763166,
+      "text": "plane"
+    },
+    {
+      "start": 3.210541,
+      "end": 3.289499,
+      "text": "The"
+    },
+    {
+      "start": 3.302625,
+      "end": 3.4605,
+      "text": "z"
+    },
+    {
+      "start": 3.473666,
+      "end": 4.013124,
+      "text": "direction"
+    },
+    {
+      "start": 4.171041,
+      "end": 4.289457,
+      "text": "will"
+    },
+    {
+      "start": 4.302625,
+      "end": 4.671041,
+      "text": "become"
+    },
+    {
+      "start": 4.684208,
+      "end": 5.315791,
+      "text": "thickness"
+    },
+    {
+      "start": 5.763166,
+      "end": 6.144749,
+      "text": "Place"
+    },
+    {
+      "start": 6.263166,
+      "end": 6.644749,
+      "text": "three"
+    },
+    {
+      "start": 6.657875,
+      "end": 6.973666,
+      "text": "lobe"
+    },
+    {
+      "start": 6.986833,
+      "end": 7.394708,
+      "text": "centers"
+    },
+    {
+      "start": 7.407875,
+      "end": 7.763125,
+      "text": "around"
+    },
+    {
+      "start": 7.776333,
+      "end": 7.828958,
+      "text": "the"
+    },
+    {
+      "start": 7.842125,
+      "end": 8.39475,
+      "text": "origin"
+    },
+    {
+      "start": 8.710541,
+      "end": 8.855291,
+      "text": "one"
+    },
+    {
+      "start": 8.868416,
+      "end": 9.197374,
+      "text": "hundred"
+    },
+    {
+      "start": 9.210541,
+      "end": 9.276332,
+      "text": "and"
+    },
+    {
+      "start": 9.289458,
+      "end": 9.618416,
+      "text": "twenty"
+    },
+    {
+      "start": 9.631583,
+      "end": 9.999999,
+      "text": "degrees"
+    },
+    {
+      "start": 10.013166,
+      "end": 10.447374,
+      "text": "apart"
+    },
+    {
+      "start": 10.881583,
+      "end": 11.394749,
+      "text": "Cosine"
+    },
+    {
+      "start": 11.407875,
+      "end": 11.644708,
+      "text": "gives"
+    },
+    {
+      "start": 11.657875,
+      "end": 11.75,
+      "text": "the"
+    },
+    {
+      "start": 11.763166,
+      "end": 12.499999,
+      "text": "horizontal"
+    },
+    {
+      "start": 12.513166,
+      "end": 13.131582,
+      "text": "coordinate"
+    },
+    {
+      "start": 13.552625,
+      "end": 14.10525,
+      "text": "sine"
+    },
+    {
+      "start": 14.210541,
+      "end": 14.434207,
+      "text": "gives"
+    },
+    {
+      "start": 14.447375,
+      "end": 14.5395,
+      "text": "the"
+    },
+    {
+      "start": 14.552625,
+      "end": 15.078958,
+      "text": "vertical"
+    },
+    {
+      "start": 15.092125,
+      "end": 15.776333,
+      "text": "coordinate"
+    },
+    {
+      "start": 16.223666,
+      "end": 16.302624,
+      "text": "The"
+    },
+    {
+      "start": 16.315791,
+      "end": 16.710541,
+      "text": "angles"
+    },
+    {
+      "start": 16.723666,
+      "end": 16.842082,
+      "text": "are"
+    },
+    {
+      "start": 16.85525,
+      "end": 17.407875,
+      "text": "ninety"
+    },
+    {
+      "start": 17.684208,
+      "end": 17.855249,
+      "text": "two"
+    },
+    {
+      "start": 17.868416,
+      "end": 18.171041,
+      "text": "hundred"
+    },
+    {
+      "start": 18.184208,
+      "end": 18.578958,
+      "text": "ten"
+    },
+    {
+      "start": 18.881583,
+      "end": 18.986833,
+      "text": "and"
+    },
+    {
+      "start": 19.0,
+      "end": 19.263166,
+      "text": "three"
+    },
+    {
+      "start": 19.276333,
+      "end": 19.578958,
+      "text": "hundred"
+    },
+    {
+      "start": 19.592125,
+      "end": 19.907916,
+      "text": "thirty"
+    },
+    {
+      "start": 19.921041,
+      "end": 20.526291,
+      "text": "degrees"
+    },
+    {
+      "start": 20.986833,
+      "end": 21.105249,
+      "text": "Here"
+    },
+    {
+      "start": 21.118416,
+      "end": 21.223666,
+      "text": "the"
+    },
+    {
+      "start": 21.236833,
+      "end": 21.763166,
+      "text": "bead-path"
+    },
+    {
+      "start": 21.776333,
+      "end": 22.315791,
+      "text": "radius"
+    },
+    {
+      "start": 22.328958,
+      "end": 22.499999,
+      "text": "R"
+    },
+    {
+      "start": 22.513166,
+      "end": 22.671041,
+      "text": "is"
+    },
+    {
+      "start": 22.684208,
+      "end": 24.0,
+      "text": "0.88"
+    },
+    {
+      "start": 24.342125,
+      "end": 24.39475,
+      "text": "and"
+    },
+    {
+      "start": 24.407875,
+      "end": 24.486833,
+      "text": "the"
+    },
+    {
+      "start": 24.5,
+      "end": 24.842125,
+      "text": "center"
+    },
+    {
+      "start": 24.85525,
+      "end": 25.276291,
+      "text": "distance"
+    },
+    {
+      "start": 25.289458,
+      "end": 25.605249,
+      "text": "D"
+    },
+    {
+      "start": 25.684208,
+      "end": 25.828958,
+      "text": "is"
+    },
+    {
+      "start": 25.842125,
+      "end": 26.276333,
+      "text": "twice"
+    },
+    {
+      "start": 26.289458,
+      "end": 26.486833,
+      "text": "R"
+    },
+    {
+      "start": 26.828958,
+      "end": 27.078958,
+      "text": "Draw"
+    },
+    {
+      "start": 27.092125,
+      "end": 27.171083,
+      "text": "a"
+    },
+    {
+      "start": 27.236833,
+      "end": 27.815791,
+      "text": "bead-path"
+    },
+    {
+      "start": 27.828958,
+      "end": 28.276333,
+      "text": "circle"
+    },
+    {
+      "start": 28.447375,
+      "end": 28.5395,
+      "text": "at"
+    },
+    {
+      "start": 28.552625,
+      "end": 28.736833,
+      "text": "each"
+    },
+    {
+      "start": 28.75,
+      "end": 29.14475,
+      "text": "center"
+    },
+    {
+      "start": 29.578958,
+      "end": 29.684208,
+      "text": "The"
+    },
+    {
+      "start": 29.697375,
+      "end": 29.986833,
+      "text": "outer"
+    },
+    {
+      "start": 30.0,
+      "end": 30.276333,
+      "text": "shell"
+    },
+    {
+      "start": 30.289458,
+      "end": 30.421041,
+      "text": "will"
+    },
+    {
+      "start": 30.434208,
+      "end": 30.736833,
+      "text": "use"
+    },
+    {
+      "start": 30.75,
+      "end": 30.881583,
+      "text": "its"
+    },
+    {
+      "start": 30.89475,
+      "end": 31.105291,
+      "text": "own"
+    },
+    {
+      "start": 31.118416,
+      "end": 31.473666,
+      "text": "larger"
+    },
+    {
+      "start": 31.486833,
+      "end": 32.078958,
+      "text": "radius"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}

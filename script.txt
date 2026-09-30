@@ -1,0 +1,161 @@
+0.0–3.4  I started with these two images
+
+3.4–7.0  and a simple prompt explaining how the puzzle works.
+
+7.0–9.7  This is what Astra created.
+
+9.7–13.0  The marbles can circulate around each
+
+13.0–16.0  of the three rims independently.
+
+16.0–20.0  Turn the center, and the separate tracks become one connected chamber,
+
+20.0–26.0  where all the marbles circulate together.
+
+26.0–30.2  Each outer half-rim can flip,
+
+30.2–35.0  transferring marbles between the front and back.
+
+35.0–41.0  And we can turn the whole model to inspect it from any angle.
+
+41.0–43.3  So I asked Astra: how did you construct this geometry?
+
+43.3–45.0  Let’s build it step by step in Three.js.
+
+45.0–50.0  Before writing geometry code, decide which parts must move together.
+
+50.0–56.0  This puzzle has a fixed frame, a central rotor, and three outer halves that flip.
+
+56.0–62.0  We give those five structural groups temporary colors so their boundaries are easy to follow.
+
+62.0–68.0  The beads are separate meshes. Removing them reveals the channels underneath.
+
+68.0–75.0  The same layered construction appears on the front and the back.
+
+75.0–81.0  Build the flat drawing in the x-y plane. The z direction will become thickness.
+
+81.0–87.0  Place three lobe centers around the origin, one hundred and twenty degrees apart.
+
+87.0–93.0  Cosine gives the horizontal coordinate; sine gives the vertical coordinate.
+
+93.0–99.0  The angles are ninety, two hundred ten, and three hundred thirty degrees.
+
+99.0–106.0  Here the bead-path radius R is 0.88, and the center distance D is twice R.
+
+106.0–115.0  Draw a bead-path circle at each center. The outer shell will use its own larger radius.
+
+115.0–121.0  Instead of drawing every edge by hand, ask whether a point is inside the shape.
+
+121.0–127.0  For a circle, measure the distance from its center and subtract its radius.
+
+127.0–134.0  A negative result means inside. Zero is the boundary. Positive means outside.
+
+134.0–140.0  Move the test point across the circle and watch the sign change.
+
+140.0–147.0  To combine circles, take the minimum of their values at each point.
+
+147.0–154.0  The body combines three lobe disks with a central disk that connects them.
+
+154.0–160.0  We use the combined function as an inside-outside mask for later construction.
+
+160.0–166.0  A bead channel is a band around a circle, not a solid disk.
+
+166.0–172.0  Take the absolute difference between distance and the bead-path radius.
+
+172.0–178.0  Subtract the half-width. The negative region is now a circular band.
+
+178.0–185.0  Combine the bands from all three lobes to describe the complete track.
+
+185.0–192.0  Keep points inside the body and outside the track to form the raised face.
+
+192.0–200.0  This removes the upper material. A separate lower bed becomes the channel floor.
+
+200.0–207.0  The outer silhouette is not enough. We must decide which material belongs to each part.
+
+207.0–214.0  A circle around the origin defines the central rotor.
+
+214.0–222.0  A line through each lobe center separates its outer flipping half.
+
+222.0–230.0  A dot product tells us which side of that line a point lies on.
+
+230.0–238.0  Intersect each region with the body. The remaining inner material belongs to the fixed frame.
+
+238.0–246.0  Leave a small gap between neighboring parts so they can move independently.
+
+246.0–255.0  Choose the rotor radius so its boundary falls between beads, rather than cutting through them.
+
+255.0–261.0  Three.js needs an outline that it can turn into a mesh. Our traceShapes helper creates it.
+
+261.0–268.0  Sample the mask on a grid, then split every cell into two triangles.
+
+268.0–275.0  On each edge, compare the signs at its endpoints. A sign change means the boundary crosses.
+
+275.0–282.0  Interpolate between those values to estimate the zero crossing.
+
+282.0–289.0  Join the crossings into closed loops. A finer grid gives a more detailed approximation.
+
+289.0–295.0  Outer loops become Shapes. Enclosed empty loops become Paths in the shape’s holes array.
+
+295.0–300.0  Give hole boundaries the opposite winding direction to the outer contour.
+
+300.0–307.0  Pass the traced shapes to ExtrudeGeometry to turn the flat outlines into solids.
+
+307.0–314.0  Depth creates the side walls. The front face now has real thickness.
+
+314.0–321.0  Bevel size controls the edge’s sideways extent; bevel thickness controls its depth.
+
+321.0–328.0  Rounded edges look molded, but the bevel can expand beyond the input outline.
+
+328.0–334.0  At a mechanical seam, that expansion can enter the neighboring part’s space.
+
+334.0–340.0  The project insets the mask before beveling, then clamps small boundary overshoots.
+
+340.0–345.0  Recompute the normals after adjusting vertices so the shading matches the final mesh.
+
+345.0–351.0  Each part combines a core, a dark channel bed, and raised face layers.
+
+351.0–358.0  Matching layers sit on both sides, so the puzzle has a front and a back.
+
+358.0–365.0  The pivot determines where a part rotates. It is not always the world origin.
+
+365.0–372.0  Subtract the pivot from the geometry’s vertices to make their coordinates local.
+
+372.0–379.0  Then place the Group at the pivot. Its meshes stay together when that Group rotates.
+
+379.0–385.0  The center turns around z. Each outer half flips around its outward-pointing axis.
+
+385.0–391.0  Every bead reuses the same SphereGeometry. Materials supply the different colors.
+
+391.0–398.0  There are ten evenly spaced positions around each lobe, so the angular step is thirty-six degrees.
+
+398.0–405.0  Add the circular offset to the lobe center to place each bead.
+
+405.0–412.0  The z coordinate selects the front or the back of the puzzle.
+
+412.0–418.0  Three lobes, ten beads, and two faces give sixty beads altogether.
+
+418.0–425.0  There are also three central pocket slots per face. Some slots are empty in each configuration.
+
+425.0–431.0  A model that looks correct at rest may still intersect when it moves.
+
+431.0–439.0  Turn the rotor sixty degrees. The plastic and its carried beads share the same rigid rotation.
+
+439.0–448.0  The channels now form a connected chamber. Beads circulate around a thirty-slot route on each face.
+
+448.0–455.0  Keep the discrete puzzle state separate from the animation between positions.
+
+455.0–461.0  When the move finishes, update which bead occupies each destination slot.
+
+461.0–469.0  Now inspect a half-rim flip. Watch the seam and the beads throughout the turn.
+
+469.0–475.0  This is a geometric, kinematic animation. A physics engine is not moving the beads.
+
+475.0–481.0  Materials, lighting, and small details give the model its finished appearance.
+
+481.0–487.0  But the reusable construction method is underneath: define flat regions and trace their boundaries.
+
+487.0–493.0  Extrude the outlines, round the edges, and organize the parts around the correct pivots.
+
+493.0–499.0  The companion example lets you inspect these stages and change the construction parameters.
+
+499.0–505.0  After every change, check that the channels align and the moving pieces still fit.

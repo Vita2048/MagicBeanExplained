@@ -1,0 +1,463 @@
+{
+  "id": "regions",
+  "duration": 33.792,
+  "words": [
+    {
+      "start": 0.118416,
+      "end": 0.197374,
+      "text": "The"
+    },
+    {
+      "start": 0.210541,
+      "end": 0.499999,
+      "text": "outer"
+    },
+    {
+      "start": 0.513166,
+      "end": 1.065791,
+      "text": "silhouette"
+    },
+    {
+      "start": 1.157875,
+      "end": 1.263125,
+      "text": "is"
+    },
+    {
+      "start": 1.276333,
+      "end": 1.526333,
+      "text": "not"
+    },
+    {
+      "start": 1.539458,
+      "end": 1.986833,
+      "text": "enough"
+    },
+    {
+      "start": 2.421041,
+      "end": 2.513166,
+      "text": "We"
+    },
+    {
+      "start": 2.526333,
+      "end": 2.763166,
+      "text": "must"
+    },
+    {
+      "start": 2.776333,
+      "end": 3.210541,
+      "text": "decide"
+    },
+    {
+      "start": 3.223666,
+      "end": 3.421041,
+      "text": "which"
+    },
+    {
+      "start": 3.434208,
+      "end": 3.960541,
+      "text": "material"
+    },
+    {
+      "start": 3.973666,
+      "end": 4.447332,
+      "text": "belongs"
+    },
+    {
+      "start": 4.460541,
+      "end": 4.565791,
+      "text": "to"
+    },
+    {
+      "start": 4.578958,
+      "end": 4.802624,
+      "text": "each"
+    },
+    {
+      "start": 4.815791,
+      "end": 5.197374,
+      "text": "part"
+    },
+    {
+      "start": 5.631583,
+      "end": 5.684208,
+      "text": "A"
+    },
+    {
+      "start": 5.697375,
+      "end": 6.131583,
+      "text": "circle"
+    },
+    {
+      "start": 6.14475,
+      "end": 6.460541,
+      "text": "around"
+    },
+    {
+      "start": 6.473666,
+      "end": 6.539457,
+      "text": "the"
+    },
+    {
+      "start": 6.552625,
+      "end": 7.10525,
+      "text": "origin"
+    },
+    {
+      "start": 7.210541,
+      "end": 7.842124,
+      "text": "defines"
+    },
+    {
+      "start": 7.85525,
+      "end": 7.947375,
+      "text": "the"
+    },
+    {
+      "start": 7.960541,
+      "end": 8.368416,
+      "text": "central"
+    },
+    {
+      "start": 8.381583,
+      "end": 8.789458,
+      "text": "rotor"
+    },
+    {
+      "start": 9.223666,
+      "end": 9.276291,
+      "text": "A"
+    },
+    {
+      "start": 9.289458,
+      "end": 9.592083,
+      "text": "line"
+    },
+    {
+      "start": 9.60525,
+      "end": 9.85525,
+      "text": "through"
+    },
+    {
+      "start": 9.973666,
+      "end": 10.223666,
+      "text": "each"
+    },
+    {
+      "start": 10.236833,
+      "end": 10.526291,
+      "text": "lobe"
+    },
+    {
+      "start": 10.539458,
+      "end": 10.868416,
+      "text": "center"
+    },
+    {
+      "start": 10.881583,
+      "end": 11.486833,
+      "text": "separates"
+    },
+    {
+      "start": 11.592125,
+      "end": 11.75,
+      "text": "its"
+    },
+    {
+      "start": 11.881583,
+      "end": 12.184208,
+      "text": "outer"
+    },
+    {
+      "start": 12.197375,
+      "end": 12.565791,
+      "text": "flipping"
+    },
+    {
+      "start": 12.578958,
+      "end": 13.052624,
+      "text": "half"
+    },
+    {
+      "start": 13.486833,
+      "end": 13.565791,
+      "text": "A"
+    },
+    {
+      "start": 13.578958,
+      "end": 13.802624,
+      "text": "dot"
+    },
+    {
+      "start": 13.815791,
+      "end": 14.249999,
+      "text": "product"
+    },
+    {
+      "start": 14.302625,
+      "end": 14.64475,
+      "text": "tells"
+    },
+    {
+      "start": 14.657875,
+      "end": 14.776291,
+      "text": "us"
+    },
+    {
+      "start": 14.789458,
+      "end": 15.039458,
+      "text": "which"
+    },
+    {
+      "start": 15.052625,
+      "end": 15.421041,
+      "text": "side"
+    },
+    {
+      "start": 15.434208,
+      "end": 15.513166,
+      "text": "of"
+    },
+    {
+      "start": 15.526333,
+      "end": 15.723708,
+      "text": "that"
+    },
+    {
+      "start": 15.736833,
+      "end": 15.960499,
+      "text": "line"
+    },
+    {
+      "start": 15.973666,
+      "end": 16.026291,
+      "text": "a"
+    },
+    {
+      "start": 16.039458,
+      "end": 16.342083,
+      "text": "point"
+    },
+    {
+      "start": 16.35525,
+      "end": 16.644708,
+      "text": "lies"
+    },
+    {
+      "start": 16.657875,
+      "end": 16.934208,
+      "text": "on"
+    },
+    {
+      "start": 17.368416,
+      "end": 17.986832,
+      "text": "Intersect"
+    },
+    {
+      "start": 18.14475,
+      "end": 18.368416,
+      "text": "each"
+    },
+    {
+      "start": 18.381583,
+      "end": 18.868416,
+      "text": "region"
+    },
+    {
+      "start": 19.0,
+      "end": 19.131583,
+      "text": "with"
+    },
+    {
+      "start": 19.14475,
+      "end": 19.236875,
+      "text": "the"
+    },
+    {
+      "start": 19.25,
+      "end": 19.64475,
+      "text": "body"
+    },
+    {
+      "start": 20.092125,
+      "end": 20.14475,
+      "text": "The"
+    },
+    {
+      "start": 20.157875,
+      "end": 20.697333,
+      "text": "remaining"
+    },
+    {
+      "start": 20.710541,
+      "end": 20.947374,
+      "text": "inner"
+    },
+    {
+      "start": 20.960541,
+      "end": 21.526332,
+      "text": "material"
+    },
+    {
+      "start": 21.539458,
+      "end": 22.144708,
+      "text": "belongs"
+    },
+    {
+      "start": 22.157875,
+      "end": 22.263125,
+      "text": "to"
+    },
+    {
+      "start": 22.276333,
+      "end": 22.368458,
+      "text": "the"
+    },
+    {
+      "start": 22.381583,
+      "end": 22.763166,
+      "text": "fixed"
+    },
+    {
+      "start": 22.776333,
+      "end": 23.157916,
+      "text": "frame"
+    },
+    {
+      "start": 23.592125,
+      "end": 23.736875,
+      "text": "Leave"
+    },
+    {
+      "start": 23.75,
+      "end": 23.815791,
+      "text": "a"
+    },
+    {
+      "start": 23.828958,
+      "end": 24.223708,
+      "text": "small"
+    },
+    {
+      "start": 24.236833,
+      "end": 24.578958,
+      "text": "gap"
+    },
+    {
+      "start": 24.592125,
+      "end": 24.947375,
+      "text": "between"
+    },
+    {
+      "start": 24.960541,
+      "end": 25.394749,
+      "text": "neighboring"
+    },
+    {
+      "start": 25.407875,
+      "end": 25.934208,
+      "text": "parts"
+    },
+    {
+      "start": 26.052625,
+      "end": 26.184208,
+      "text": "so"
+    },
+    {
+      "start": 26.197375,
+      "end": 26.342125,
+      "text": "they"
+    },
+    {
+      "start": 26.35525,
+      "end": 26.526291,
+      "text": "can"
+    },
+    {
+      "start": 26.539458,
+      "end": 26.868416,
+      "text": "move"
+    },
+    {
+      "start": 26.960541,
+      "end": 27.736874,
+      "text": "independently"
+    },
+    {
+      "start": 28.171041,
+      "end": 28.460499,
+      "text": "Choose"
+    },
+    {
+      "start": 28.473666,
+      "end": 28.565791,
+      "text": "the"
+    },
+    {
+      "start": 28.578958,
+      "end": 28.894749,
+      "text": "rotor"
+    },
+    {
+      "start": 28.907875,
+      "end": 29.4605,
+      "text": "radius"
+    },
+    {
+      "start": 29.60525,
+      "end": 29.763125,
+      "text": "so"
+    },
+    {
+      "start": 29.776333,
+      "end": 29.907916,
+      "text": "its"
+    },
+    {
+      "start": 29.921041,
+      "end": 30.434207,
+      "text": "boundary"
+    },
+    {
+      "start": 30.447375,
+      "end": 30.815791,
+      "text": "falls"
+    },
+    {
+      "start": 30.828958,
+      "end": 31.276333,
+      "text": "between"
+    },
+    {
+      "start": 31.289458,
+      "end": 31.881583,
+      "text": "beads"
+    },
+    {
+      "start": 32.197375,
+      "end": 32.486833,
+      "text": "rather"
+    },
+    {
+      "start": 32.5,
+      "end": 32.64475,
+      "text": "than"
+    },
+    {
+      "start": 32.657875,
+      "end": 32.9605,
+      "text": "cutting"
+    },
+    {
+      "start": 32.973666,
+      "end": 33.184207,
+      "text": "through"
+    },
+    {
+      "start": 33.197375,
+      "end": 33.39475,
+      "text": "them"
+    }
+  ],
+  "voice": "en-US-AndrewNeural",
+  "rate": "-5%"
+}
